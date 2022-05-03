@@ -16,6 +16,11 @@
             "fun_fact": ""
         }
     },
+    "contacts": {
+        "phone": "",
+        "email": "",
+        "address": ""
+    },
     "awards_certs": [
         {
             "title": "",
