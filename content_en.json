@@ -70,5 +70,14 @@
             "link": "",
             "link_icon": ""
         }
+    ],
+    "lastest_posts": [
+        {
+            "title": "",
+            "platform": "",
+            "date": "",
+            "image": "",
+            "link": ""
+        }
     ]
 }
