@@ -1,6 +1,5 @@
 $.ajax({
-    url: "test.html",
-    context: document.body
-  }).done(function() {
-    $( this ).addClass( "done" );
+    url: "/content_en.json"
+  }).done(function(content) {
+    console.log(JSON.parse(content));
   });

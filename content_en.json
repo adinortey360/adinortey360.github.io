@@ -1,83 +1,83 @@
 {
-    "greeting": "",
-    "greeting_name": "",
-    "job_title": "",
-    "short_bio": "",
+    "greeting": "Hello there 👋, this is",
+    "greeting_name": "Adinortey Lawerteh",
+    "job_title": "Adinortey Lawerteh",
+    "short_bio": "I'm a full-stack software developer with 11+ years of relevant experience, an entrepreneur and a content creator. I've always been a firm believer in changing the world through the use of science and technology.",
     "bio": {
-        "full_bio": "",
+        "full_bio": "<p>I'm a full-stack software developer with 11+ years of relevant experience, an entrepreneur and a content creator. I've always been a firm believer in changing the world through the use of science and technology. This is what has motivated my career choices. </p> <p>In today's digital world, everything and anything is becoming automated. Technology is evolving every day and it continues to change the way we live. This is why it's important to me that I invest in my learning and development. I have done this by investing time into starting new and challenging projects with the latest technologies with the intention of brute-forcing my way into new fields in the technology space. This has paid off very well so far.</p> <p> If you catch me outside, I'm talking about science, technology and airplanes. </p>",
         "extras": {
-            "name": "",
-            "location": "",
-            "interests": "",
-            "hobbies": "",
-            "phone": "",
-            "email": "",
-            "languages": "",
-            "fun_fact": ""
+            "name": "Adinortey Lawerteh",
+            "location": "Accra, Ghana 🇬🇭",
+            "interests": "Science, Tech & Airplanes",
+            "hobbies": "Building things",
+            "phone": "+233 50-228-1793",
+            "email": "hello@adinortey.com",
+            "languages": "EN (90%), FR (15%)",
+            "fun_fact": "I started coding at 13"
         }
     },
     "contacts": {
-        "phone": "",
-        "email": "",
-        "address": ""
+        "phone": "+233 50- 228-1793",
+        "email": "hello@adinortey.com",
+        "address": "Accra, Greater Accra, Ghana <br>GS0359"
     },
     "awards_certs": [
         {
-            "title": "",
-            "subtitle": "",
-            "image": ""
+            "title": "AI Research (AICommons)",
+            "subtitle": "Certification of participation",
+            "image": "aicommons.png"
         }
     ],
     "recommendations": [
         {
-            "message": "",
-            "author": "",
-            "author_title": ""
+            "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "author": "Richard",
+            "author_title": "COO"
         }
     ],
     "experience": [
         {
-            "designation": "",
-            "company": "",
-            "company_shortname": "",
-            "role": "",
-            "from": "",
-            "to": "",
-            "job_type": "",
-            "job_description": ""
+            "designation": "CEO & Director of Technology",
+            "company": "Airban Company Limited",
+            "company_shortname": "Airban",
+            "role": "Leadership",
+            "from": "June 2018",
+            "to": "Present",
+            "job_type": "Full Time",
+            "job_description": "Adipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor."
         }
     ],
     "education": [
         {
-            "from": "",
-            "to": "",
-            "course_title": "",
-            "institution": ""
+            "from": "2021",
+            "to": "Present",
+            "course_title": "Bachelor of Science in Business Administration",
+            "institution": "Accra Institute of Technology"
         }
     ],
     "skills": [
         {
-            "skill": "",
-            "rating": 0
+            "skill": "Frontend",
+            "rating": 0.92
         }
     ],
     "projects": [
         {
-            "name": "",
-            "category": "",
-            "status": "",
-            "description": "",
-            "link": "",
+            "name": "Strooptest for ADHD",
+            "category": "Medical",
+            "status": "In progress",
+            "description": "Adipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.",
+            "link": "https://github.com/adinortey360/strooptest",
             "link_icon": ""
         }
     ],
     "lastest_posts": [
         {
-            "title": "",
-            "platform": "",
-            "date": "",
-            "image": "",
-            "link": ""
+            "title": "Blockchain: People want their freedoms back",
+            "platform": "Medium",
+            "date": "May 1",
+            "image": "https://miro.medium.com/max/700/1*BJKPVwcMuENrSOBvvyopcA.jpeg",
+            "link": "https://medium.com/@adinortey360/blockchain-people-want-their-freedoms-back-e25f21ebbde2"
         }
     ]
 }
