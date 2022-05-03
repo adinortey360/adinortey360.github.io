@@ -1,0 +1,69 @@
+{
+    "greeting": "",
+    "greeting_name": "",
+    "job_title": "",
+    "short_bio": "",
+    "bio": {
+        "full_bio": "",
+        "extras": {
+            "name": "",
+            "location": "",
+            "interests": "",
+            "hobbies": "",
+            "phone": "",
+            "email": "",
+            "languages": "",
+            "fun_fact": ""
+        }
+    },
+    "awards_certs": [
+        {
+            "title": "",
+            "subtitle": "",
+            "image": ""
+        }
+    ],
+    "recommendations": [
+        {
+            "message": "",
+            "author": "",
+            "author_title": ""
+        }
+    ],
+    "experience": [
+        {
+            "designation": "",
+            "company": "",
+            "company_shortname": "",
+            "role": "",
+            "from": "",
+            "to": "",
+            "job_type": "",
+            "job_description": ""
+        }
+    ],
+    "education": [
+        {
+            "from": "",
+            "to": "",
+            "course_title": "",
+            "institution": ""
+        }
+    ],
+    "skills": [
+        {
+            "skill": "",
+            "rating": 0
+        }
+    ],
+    "projects": [
+        {
+            "name": "",
+            "category": "",
+            "status": "",
+            "description": "",
+            "link": "",
+            "link_icon": ""
+        }
+    ]
+}
