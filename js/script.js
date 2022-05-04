@@ -27,4 +27,8 @@ $.ajax({
     content.experience.forEach(element => {
       $("#experience").append('<div class="resume-row aos-init"> <div class="row"> <div class="col-md-4 col-xl-3"> <div class="rb-left"> <h6>'+element.designation+'</h6><label>'+element.company_shortname+' | '+element.role+'</label> <p>'+element.from+' - '+element.to+'</p> <div class="rb-time">'+element.job_type+'</div> </div> </div> <div class="col-md-8 col-xl-9"> <div class="rb-right"> <h6>'+element.company+'</h6> <p>'+element.job_description+'</p> </div> </div> </div> </div>');
     });
+
+    content.education.forEach(element => {
+      $("#education").append('<li><span>'+element.from+'-'+element.to+'</span> <h6>'+element.course_title+'</h6> <p>'+element.institution+'</p> </li>');
+    });
   });
