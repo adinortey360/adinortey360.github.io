@@ -18,4 +18,8 @@ $.ajax({
     content.awards_certs.forEach(element => {
         $("#award_certs").append('<div class="col-lg-4 m-15px-tb aos-init" > <div class="feature-box-02 d-flex align-items-center"> <div class="icon"><img src="'+element.image+'" alt="award"></div> <div class="media-body"> <h6>'+element.title+'</h6> <p>'+element.subtitle+'</p> </div> </div> </div>');
     });
+
+    content.recommendations.forEach(element => {
+      $("#recommendations").append('<div class="slick-track" > <div data-index="4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 568px;"> <div> <div tabindex="-1" style="width: 100%; display: inline-block;" class="aos-init"> <div class="testimonial-01 media"> <div class="avatar"><img src="img/team-2.jpg" alt="review comments"></div> <div class="media-body"> <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.</p> <h6>Jara Afsari</h6><span>CEO at ib-themes</span> </div> </div> </div> </div> </div> </div>');
+    });
   });
