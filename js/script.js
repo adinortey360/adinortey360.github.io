@@ -39,4 +39,9 @@ $.ajax({
     content.projects.forEach(element => {
       $("#projects").append('<div class="resume-row aos-init"> <div class="row"> <div class="col-md-4 col-xl-3"> <div class="rb-left"> <h6>'+element.category+'</h6><label>'+element.status+'</label> <div class="rb-time">'+element.link+'</div> </div> </div> <div class="col-md-8 col-xl-9"> <div class="rb-right"> <h6>'+element.name+'</h6> <p>'+element.description+'</p> </div> </div> </div> </div>');
     });
+
+
+    content.lastest_posts.forEach(element => {
+      $("#lastest_posts").append('<div class="col-md-6 m-15px-tb aos-init" > <div class="blog-grid"> <div class="blog-img"><img src="'+element.image+'" alt="blog post"></div> <div class="blog-info"> <div class="meta">'+element.date+' - '+element.platform+'</div> <h6><a href="'+element.link+'" style="cursor: none;">'+element.title+'</a></h6> </div> </div> </div>');
+    });
   });
