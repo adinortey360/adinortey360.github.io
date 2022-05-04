@@ -14,14 +14,14 @@ $.ajax({
     $("#bio_email").html(content.bio.extras.email);
     $("#bio_languages").html(content.bio.extras.languages);
     $("#bio_fun_fact").html(content.bio.extras.fun_fact);
-    $("#contact_title").html(content.contact.title);
-    $("#contact_subtitle").html(content.contact.subtitle);
-    $("#contact_say_something").html(content.contact.say_something);
-    $("#contact_phone").html(content.contact.phone);
-    $("#contact_email").html(content.contact.email);
-    $("#contact_phonetop").html(content.contact.phone);
-    $("#contact_emailtop").html(content.contact.email);
-    $("#contact_address").html(content.contact.address);
+    $("#contact_title").html(content.contacts.title);
+    $("#contact_subtitle").html(content.contacts.subtitle);
+    $("#contact_say_something").html(content.contacts.say_something);
+    $("#contact_phone").html(content.contacts.phone);
+    $("#contact_email").html(content.contacts.email);
+    $("#contact_phonetop").html(content.contacts.phone);
+    $("#contact_emailtop").html(content.contacts.email);
+    $("#contact_address").html(content.contacts.address);
 
     content.awards_certs.forEach(element => {
         $("#award_certs").append('<div class="col-lg-4 m-15px-tb aos-init" > <div class="feature-box-02 d-flex align-items-center"> <div class="icon"><img src="'+element.image+'" alt="award"></div> <div class="media-body"> <h6>'+element.title+'</h6> <p>'+element.subtitle+'</p> </div> </div> </div>');
