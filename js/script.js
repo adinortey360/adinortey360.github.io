@@ -33,6 +33,6 @@ $.ajax({
     });
 
     content.skill.forEach(element => {
-      $("#skill").append('<div class="skill-lt"> <h6>'+element.skill+'</h6><span class="count-inner"><span>'+element.rating*100+'</span>%</span> <div class="skill-bar"> <div class="skill-bar-in" style="width: 92%;"></div> </div> </div>');
+      $("#skill").append('<div class="skill-lt"> <h6>'+element.skill+'</h6><span class="count-inner"><span>'+element.rating*100+'</span>%</span> <div class="skill-bar"> <div class="skill-bar-in" style="width: '+element.rating*100+'%;"></div> </div> </div>');
     });
   });
