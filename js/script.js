@@ -35,4 +35,8 @@ $.ajax({
     content.skill.forEach(element => {
       $("#skill").append('<div class="skill-lt"> <h6>'+element.skill+'</h6><span class="count-inner"><span>'+element.rating.toString()+'</span>%</span> <div class="skill-bar"> <div class="skill-bar-in" style="width: '+element.rating.toString()+'%;"></div> </div> </div>');
     });
+
+    content.projects.forEach(element => {
+      $("#projects").append('<div class="resume-row aos-init"> <div class="row"> <div class="col-md-4 col-xl-3"> <div class="rb-left"> <h6>'+element.category+'</h6><label>'+element.status+'</label> <div class="rb-time">'+element.link+'</div> </div> </div> <div class="col-md-8 col-xl-9"> <div class="rb-right"> <h6>'+element.name+'</h6> <p>'+element.description+'</p> </div> </div> </div> </div>');
+    });
   });
