@@ -133,7 +133,7 @@
             "name": "Medicon Health Telemedicine Platform",
             "category": "Medical",
             "status": "Launched in May 2022",
-            "description": "Medicon Health is a telemedicine platform that affords users access to medical services including, medical consultations, pharmacy services and laboratory services digitally.<br>Features: Authentication, doctor profiles, pharmacy, prescription scanning, video and voice consultations, order management, booking, Point of Sale and drug delivery tracking.<br>Technology stack: Flutter, PHP, Laravel, MySQL, Firebase, Google Cloud services and Agora.",
+            "description": "Medicon Health is a telemedicine platform that affords users access to medical services including, medical consultations, pharmacy services and laboratory services digitally.<br><br>Features: Authentication, doctor profiles, pharmacy, prescription scanning, video and voice consultations, order management, booking, Point of Sale and drug delivery tracking.<br><br>Technology stack: Flutter, PHP, Laravel, MySQL, Firebase, Google Cloud services and Agora.",
             "link": "https://mediconhealth.com",
             "link_icon": ""
         }
