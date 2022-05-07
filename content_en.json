@@ -168,10 +168,19 @@
         {
             "name": "Rokel airline ticket system setup",
             "category": "Travel & Tour",
-            "status": "Open Source",
+            "status": "Released",
             "image": "https://via.placeholder.com/512/008080/FFFFFF/?text=ADINORTEY",
             "description": "Setup of airline ticket and hotel reservation system for travelers to compare prices and purchase airline tickets. They are allowed to also compare hotel prices from anywhere in the world and make reservations through affiliation with major booking platforms.",
             "link": "https://rokeltravels.com",
+            "link_icon": ""
+        },
+        {
+            "name": "Rokel shipment booking and tracking system",
+            "category": "Logistics & Transportation",
+            "status": "Released",
+            "image": "https://via.placeholder.com/512/008080/FFFFFF/?text=ADINORTEY",
+            "description": "Designed and developed a shipment booking and tracking system to handle quotation generation and price comparisons for various freight services.<br><br>Features: Quotation generation with price comparisons, user authentication, booking, payment collection and shipping document generation.<br><br>Technology stack: PHP, Jquery, Firebase and WordPress for the homepage.",
+            "link": "https://rokelshipping.co.uk",
             "link_icon": ""
         }
     ],
