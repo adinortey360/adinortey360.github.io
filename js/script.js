@@ -45,11 +45,11 @@ $.ajax({
     });
 
     content.projects.forEach(element => {
-      $("#projects").append('<div class="resume-row col-md-5"> <div class="row"> <div class="col-md-12 col-xl-12"> <div><div class="project-image"><img src="'+element.image+'" /></div> <h6>'+element.name+'</h6><label>'+element.category+' | '+element.status+'</label>  <p>'+element.description+'</p> <a href="'+element.link+'" target="_blank" style="color: #fff;border-bottom:1px solid #fff;font-weight: 400;">Show Project</a></div> </div> </div> </div> </div>');
+      $("#projects").append('<div class="resume-row col-md-6"> <div class="row"> <div class="col-md-12 col-xl-12"> <div><div class="project-image"><img src="'+element.image+'" /></div> <h6>'+element.name+'</h6><label>'+element.category+' | '+element.status+'</label>  <p>'+element.description+'</p> <a href="'+element.link+'" target="_blank" style="color: #fff;border-bottom:1px solid #fff;font-weight: 400;">Show Project</a></div> </div> </div> </div> </div>');
     });
 
 
     content.lastest_posts.forEach(element => {
-      $("#lastest_posts").append('<div class="col-md-6" > <div class="blog-grid"> <div class="blog-img"><img src="'+element.image+'" alt="blog post"></div> <div class="blog-info"> <div class="meta">'+element.date+' - '+element.platform+'</div> <h6><a href="'+element.link+'" style="cursor: none;">'+element.title+'</a></h6> </div> </div> </div>');
+      $("#lastest_posts").append('<div class="col-md-6 m-15px-tb aos-init" > <div class="blog-grid"> <div class="blog-img"><img src="'+element.image+'" alt="blog post"></div> <div class="blog-info"> <div class="meta">'+element.date+' - '+element.platform+'</div> <h6><a href="'+element.link+'" style="cursor: none;">'+element.title+'</a></h6> </div> </div> </div>');
     });
   });
