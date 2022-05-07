@@ -87,13 +87,13 @@
         },
         {
             "designation": "Network Administrator",
-            "company": "Freelance",
-            "company_shortname": "GKSMS",
-            "role": "Web development",
-            "from": "February 2013",
-            "to": "December 2017",
+            "company": "Courtyard Hill Internet Cafe",
+            "company_shortname": "Internet Cafe",
+            "role": "Networking & management",
+            "from": "June 2011",
+            "to": "May 2012",
             "job_type": "Self-employed",
-            "job_description": "Developed websites and web applications for clients across multiple countries (United States, United Kingdom and Ghana) as a freelancer."
+            "job_description": "Handled networking of computers and internet connectivity. Implemented and managed a captive portal for time logging and internet browsing fees collection. Repaired hardware problems with computers in the cafe and also for visiting clients."
         }
     ],
     "education": [
@@ -102,6 +102,24 @@
             "to": "Present",
             "course_title": "Bachelor of Science in Business Administration",
             "institution": "Accra Institute of Technology"
+        },
+        {
+            "from": "2020",
+            "to": "2021",
+            "course_title": "Diploma of Technology in Business Administration",
+            "institution": "Accra Institute of Technology"
+        },
+        {
+            "from": "2019",
+            "to": "2019",
+            "course_title": "Entrepreneurship",
+            "institution": "Founder Institute"
+        },
+        {
+            "from": "2012",
+            "to": "2015",
+            "course_title": "General Science",
+            "institution": "Chemu Senior High School"
         }
     ],
     "skills": [
