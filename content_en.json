@@ -155,6 +155,15 @@
             "description": "Developed to enable intra-city courier services. The platform enables delivery bike riders receive requests from nearby customers requesting package delivery services. Rider does the pickup and delivers to the destination.<br><br>Features: Delivery requests by customers and on behalf of others, riders alerts by ringing, smart routing and navigation, price computations by distance and package parameters, remote tracking of rider. <br><br>Technology stack: Flutter, PHP, Laravel, MySQL, Firebase, Google Cloud services and Oracle Cloud Infrastructure.",
             "link": "https://play.google.com/store/apps/details?id=gh.trust.express",
             "link_icon": ""
+        },
+        {
+            "name": "BloodWork for medical laboratories",
+            "category": "Medical",
+            "status": "Open Source",
+            "image": "https://via.placeholder.com/512/008080/FFFFFF/?text=ADINORTEY",
+            "description": "An opensource flutter mobile application to help medical laboratories receive lab requests from patients and doctors for home service sample collection and result transmission.<br><br>The goal of this project is to create a platform for people with mobility concerns to get access to laboratory services without the need to visit the lab.<br><br>The application started in FlutterFlow and then customised in pure flutter code.<br><br>Technology stack: Flutter and Firebase.",
+            "link": "https://github.com/adinortey360/bloodwork",
+            "link_icon": ""
         }
     ],
     "lastest_posts": [
