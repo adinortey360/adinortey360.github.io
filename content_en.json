@@ -124,7 +124,31 @@
     ],
     "skills": [
         {
-            "skill": "Frontend",
+            "skill": "Python",
+            "rating": 90
+        },
+        {
+            "skill": "PHP",
+            "rating": 95
+        },
+        {
+            "skill": "Node.js",
+            "rating": 80
+        },
+        {
+            "skill": "SQL",
+            "rating": 85
+        },
+        {
+            "skill": "REST APIs",
+            "rating": 98
+        },
+        {
+            "skill": "AI/ML",
+            "rating": 70
+        },
+        {
+            "skill": "Frontend (HTML, CSS, Javascript)",
             "rating": 90
         }
     ],
