@@ -45,7 +45,7 @@ $.ajax({
     });
 
     content.projects.forEach(element => {
-      $("#projects").append('<div class="resume-row col-md-5"> <div class="row"> <div class="col-md-12 col-xl-12"> <div><div class="project-image"><img src="https://via.placeholder.com/512/008080/FFFFFF/?text=adinortey.com" /></div> <h6>'+element.name+'</h6><label>'+element.category+' | '+element.status+'</label>  <p>'+element.description+'</p> <a href="'+element.link+'" target="_blank" style="color: #fff;border-bottom:1px solid #fff;text-decoration: underline;">Show Project</a></div> </div> </div> </div> </div>');
+      $("#projects").append('<div class="resume-row col-md-5"> <div class="row"> <div class="col-md-12 col-xl-12"> <div><div class="project-image"><img src="https://via.placeholder.com/512/008080/FFFFFF/?text=adinortey.com" /></div> <h6>'+element.name+'</h6><label>'+element.category+' | '+element.status+'</label>  <p>'+element.description+'</p> <a href="'+element.link+'" target="_blank" style="color: #fff;border-bottom:1px solid #fff;font-weight: bold;">Show Project</a></div> </div> </div> </div> </div>');
     });
 
 
