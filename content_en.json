@@ -164,6 +164,15 @@
             "description": "An opensource flutter mobile application to help medical laboratories receive lab requests from patients and doctors for home service sample collection and result transmission.<br><br>The goal of this project is to create a platform for people with mobility concerns to get access to laboratory services without the need to visit the lab.<br><br>The application started in FlutterFlow and then customised in pure flutter code.<br><br>Technology stack: Flutter and Firebase.",
             "link": "https://github.com/adinortey360/bloodwork",
             "link_icon": ""
+        },
+        {
+            "name": "Rokel airline ticket system setup",
+            "category": "Travel & Tour",
+            "status": "Open Source",
+            "image": "https://via.placeholder.com/512/008080/FFFFFF/?text=ADINORTEY",
+            "description": "Setup of airline ticket and hotel reservation system for travelers to compare prices and purchase airline tickets. They are allowed to also compare hotel prices from anywhere in the world and make reservations through affiliation with major booking platforms.",
+            "link": "https://rokeltravels.com",
+            "link_icon": ""
         }
     ],
     "lastest_posts": [
