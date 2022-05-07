@@ -28,7 +28,7 @@ $.ajax({
     });
 
     content.recommendations.forEach(element => {
-      $("#recommendations").append('<div class="slick-track" > <div data-index="4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 568px;"> <div> <div tabindex="-1" style="width: 100%; display: inline-block;" class="aos-init"> <div class="testimonial-01 media"> <div class="avatar"><img src="'+element.image+'" alt="review comments"></div> <div class="media-body"> <p>'+element.message+'</p> <h6>'+element.author+'</h6><span>'+element.author_title+'</span> </div> </div> </div> </div> </div> </div>');
+      $("#recommendations").append('<div class="slick-track" > <div data-index="4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 568px;"> <div> <div tabindex="-1" style="width: 100%; display: inline-block;" class="aos-init"> <div class="testimonial-01 media"> <div class="avatar"><img src="'+element.author_image+'" alt="review comments"></div> <div class="media-body"> <p>'+element.message+'</p> <h6>'+element.author+'</h6><span>'+element.author_title+'</span> </div> </div> </div> </div> </div> </div>');
     });
 
 
@@ -45,7 +45,7 @@ $.ajax({
     });
 
     content.projects.forEach(element => {
-      $("#projects").append('<div class="col-md-6"><div class="resume-row"> <div class="row"> <div class="col-md-12 col-xl-12"> <div><div class="project-image"><img src="'+element.author_image+'" /></div> <h6>'+element.name+'</h6><label>'+element.category+' | '+element.status+'</label>  <p>'+element.description+'</p> <a href="'+element.link+'" target="_blank" style="color: #fff;border-bottom:1px solid #fff;font-weight: 400;">Show Project</a></div> </div> </div> </div> </div> </div>');
+      $("#projects").append('<div class="col-md-6"><div class="resume-row"> <div class="row"> <div class="col-md-12 col-xl-12"> <div><div class="project-image"><img src="'+element.image+'" /></div> <h6>'+element.name+'</h6><label>'+element.category+' | '+element.status+'</label>  <p>'+element.description+'</p> <a href="'+element.link+'" target="_blank" style="color: #fff;border-bottom:1px solid #fff;font-weight: 400;">Show Project</a></div> </div> </div> </div> </div> </div>');
     });
 
 
