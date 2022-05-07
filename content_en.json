@@ -182,6 +182,42 @@
             "description": "Designed and developed a shipment booking and tracking system to handle quotation generation and price comparisons for various freight services.<br><br>Features: Quotation generation with price comparisons, user authentication, booking, payment collection and shipping document generation.<br><br>Technology stack: PHP, Jquery, Firebase and WordPress for the homepage.",
             "link": "https://rokelshipping.co.uk",
             "link_icon": ""
+        },
+        {
+            "name": "Airban Enterprise Resource Planning",
+            "category": "Business",
+            "status": "Released",
+            "image": "https://via.placeholder.com/512/008080/FFFFFF/?text=ADINORTEY",
+            "description": "An Enterprise Resource Planning platform simplified for operating small to medium scale enterprises.<br><br>The platform handles sales, Human Resource, expense and budgeting, project management, accounting and other business activities.<br><br>Technology stack: Python, MySQL, Angular and Firebase.",
+            "link": "https://goairban.com",
+            "link_icon": ""
+        },
+        {
+            "name": "Getmybox subscription box mobile app",
+            "category": "Transportation & Logistics",
+            "status": "Released",
+            "image": "https://via.placeholder.com/512/008080/FFFFFF/?text=ADINORTEY",
+            "description": "An Enterprise Resource Planning platform simplified for operating small to medium scale enterprises.<br><br>The platform handles sales, Human Resource, expense and budgeting, project management, accounting and other business activities.<br><br>Technology stack: Python, MySQL, Angular and Firebase.",
+            "link": "https://play.google.com/store/apps/details?id=get.mybox.me",
+            "link_icon": ""
+        },
+        {
+            "name": "Healthcarology",
+            "category": "Medical",
+            "status": "Released",
+            "image": "https://via.placeholder.com/512/008080/FFFFFF/?text=ADINORTEY",
+            "description": "Healthcarology is a medical application for personal health records. It keeps track of users  health and enables instant access to insights by care providers.<br><br>Technology stack: Flutter, Python, PHP, Laravel, MySQL, Firebase, Amazon Web Services, Oracle Cloud Infrastructure.",
+            "link": "https://play.google.com/store/apps/details?id=com.healthcarology.healthcarology",
+            "link_icon": ""
+        },
+        {
+            "name": "Digital signage content management system",
+            "category": "Business",
+            "status": "Released",
+            "image": "https://via.placeholder.com/512/008080/FFFFFF/?text=ADINORTEY",
+            "description": "Signage CMS is a content management system to manage digital signages and displays accross an organisation through a Raspberry pi server. <br><br>It enables the delivery of important information to audience in realtime. <br><br>Features: Video manager and player, RSS feed integration, screen management, queue management, presentation and templates management.<br><br> Technology Stack: PHP Laravel and MySQL.",
+            "link": "https://play.google.com/store/apps/details?id=com.healthcarology.healthcarology",
+            "link_icon": ""
         }
     ],
     "lastest_posts": [
