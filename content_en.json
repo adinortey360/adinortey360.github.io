@@ -54,6 +54,36 @@
             "to": "Present",
             "job_type": "Full Time",
             "job_description": "Lead a team software engineers in the development and implementation of Enterprise Resource Planning applications for SMEs. Work with project managers to allocate and assign projects and tasks to employees. Identify and form key partnerships to grow the company.Develop and deploy software tools for company-wide operations. Handle budgeting, optimize cost of production, analyze and optimize team performance. Create and build company culture and influence staff by it."
+        },
+        {
+            "designation": "Information Technology Manager",
+            "company": "BreatheESB Medical Center",
+            "company_shortname": "BreatheESB",
+            "role": "IT & Engineering",
+            "from": "March 2021",
+            "to": "Present",
+            "job_type": "Contract",
+            "job_description": "Developed and maintain the website of the hospital. Implementation, deployment and management of Hospital Management Systems for handling patients and resources of the facility. Liaise with medical professionals to design efficient patient intake and discharge procedures using digital Electronic Medical Record systems. Train and assist new staff on how to use the Electronic Medical Record systems."
+        },
+        {
+            "designation": "Software Engineer",
+            "company": "Golden Key Group",
+            "company_shortname": "GKSMS",
+            "role": "Consulting & Engineering",
+            "from": "January 2016",
+            "to": "December 2018",
+            "job_type": "Contract",
+            "job_description": "Developed and maintained enterprise resource management software that helped the company in the recruitment of thousands of mobile money agents for banks. Set up and maintained Google cloud servers for handling company emails. Trained and assisted staff on how to use digital systems in the workplace. Produced and communicated budgets with key stakeholders for technology implementation or optimisation.Developed and maintain the website of the hospital. Implementation, deployment and management of Hospital Management Systems for handling patients and resources of the facility. Liaise with medical professionals to design efficient patient intake and discharge procedures using digital Electronic Medical Record systems. Train and assist new staff on how to use the Electronic Medical Record systems."
+        },
+        {
+            "designation": "Software Engineer",
+            "company": "Golden Key Group",
+            "company_shortname": "GKSMS",
+            "role": "Consulting & Engineering",
+            "from": "January 2016",
+            "to": "December 2018",
+            "job_type": "Contract",
+            "job_description": "Developed and maintained enterprise resource management software that helped the company in the recruitment of thousands of mobile money agents for banks. Set up and maintained Google cloud servers for handling company emails. Trained and assisted staff on how to use digital systems in the workplace. Produced and communicated budgets with key stakeholders for technology implementation or optimisation.Developed and maintain the website of the hospital. Implementation, deployment and management of Hospital Management Systems for handling patients and resources of the facility. Liaise with medical professionals to design efficient patient intake and discharge procedures using digital Electronic Medical Record systems. Train and assist new staff on how to use the Electronic Medical Record systems."
         }
     ],
     "education": [
