@@ -77,9 +77,9 @@
         },
         {
             "designation": "Web Developer",
-            "company": "Freelance",
-            "company_shortname": "GKSMS",
-            "role": "Web development",
+            "company": "Freelancing",
+            "company_shortname": "Freelance",
+            "role": "Web Development",
             "from": "February 2013",
             "to": "December 2017",
             "job_type": "Self-employed",
@@ -89,7 +89,7 @@
             "designation": "Network Administrator",
             "company": "Courtyard Hill Internet Cafe",
             "company_shortname": "Internet Cafe",
-            "role": "Networking & management",
+            "role": "Networking & Management",
             "from": "June 2011",
             "to": "May 2012",
             "job_type": "Self-employed",
@@ -130,11 +130,11 @@
     ],
     "projects": [
         {
-            "name": "Strooptest for ADHD",
+            "name": "Medicon Health Telemedicine Platform",
             "category": "Medical",
-            "status": "In progress",
-            "description": "Adipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.",
-            "link": "https://github.com/adinortey360/strooptest",
+            "status": "Launched in May 2022",
+            "description": "Medicon Health is a telemedicine platform that affords users access to medical services including, medical consultations, pharmacy services and laboratory services digitally.<br>Features: Authentication, doctor profiles, pharmacy, prescription scanning, video and voice consultations, order management, booking, Point of Sale and drug delivery tracking.<br>Technology stack: Flutter, PHP, Laravel, MySQL, Firebase, Google Cloud services and Agora.",
+            "link": "https://mediconhealth.com",
             "link_icon": ""
         }
     ],
