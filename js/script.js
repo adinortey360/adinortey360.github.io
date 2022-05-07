@@ -50,6 +50,6 @@ $.ajax({
 
 
     content.lastest_posts.forEach(element => {
-      $("#lastest_posts").append('<div class="col-md-6 m-15px-tb aos-init" > <div class="blog-grid"> <div class="blog-img"><img src="'+element.image+'" alt="blog post"></div> <div class="blog-info"> <div class="meta">'+element.date+' - '+element.platform+'</div> <h6><a href="'+element.link+'" style="cursor: none;">'+element.title+'</a></h6> </div> </div> </div>');
+      $("#lastest_posts").append('<div class="col-md-6" > <div class="blog-grid"> <div class="blog-img"><img src="'+element.image+'" alt="blog post"></div> <div class="blog-info"> <div class="meta">'+element.date+' - '+element.platform+'</div> <h6><a href="'+element.link+'" style="cursor: none;">'+element.title+'</a></h6> </div> </div> </div>');
     });
   });
