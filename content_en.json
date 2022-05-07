@@ -1,10 +1,10 @@
 {
     "greeting": "Hello there 👋, this is",
     "greeting_name": "Adinortey Lawerteh",
-    "job_title": "Full-Stack Software Developer",
-    "short_bio": "I'm a full-stack software developer with 11+ years of relevant experience, an entrepreneur and a content creator. I've always been a firm believer in changing the world through the use of science and technology.",
+    "job_title": "Full-Stack Software Engineer",
+    "short_bio": "I'm a full-stack software engineer with 11+ years of relevant experience, an entrepreneur and a content creator. I've always been a firm believer in changing the world through the use of science and technology.",
     "bio": {
-        "full_bio": "<p>I'm a full-stack software developer with 11+ years of relevant experience, an entrepreneur and a content creator. I've always been a firm believer in changing the world through the use of science and technology. This is what has motivated my career choices. </p> <p>In today's digital world, everything and anything is becoming automated. Technology is evolving every day and it continues to change the way we live. This is why it's important to me that I invest in my learning and development. I have done this by investing time into starting new and challenging projects with the latest technologies with the intention of brute-forcing my way into new fields in the technology space. This has paid off very well so far.</p> <p> If you catch me outside, I'm talking about science, technology and airplanes. </p>",
+        "full_bio": "<p>I'm a full-stack software engineer with 11+ years of relevant experience, an entrepreneur and a content creator. I've always been a firm believer in changing the world through the use of science and technology. This is what has motivated my career choices. </p> <p>In today's digital world, everything and anything is becoming automated. Technology is evolving every day and it continues to change the way we live. This is why it's important to me that I invest in my learning and development. I have done this by investing time into starting new and challenging projects with the latest technologies with the intention of brute-forcing my way into new fields in the technology space. This has paid off very well so far.</p> <p> If you catch me outside, I'm talking about science, technology and airplanes. </p>",
         "extras": {
             "name": "Adinortey Lawerteh",
             "location": "Accra, Ghana 🇬🇭",
@@ -20,35 +20,40 @@
         "title": "What’s your story? Get in touch",
         "subtitle": "Always available for interesting opportunities. Feel free to contact me.",
         "say_something": "Say Something",
-        "phone": "+233 50- 228-1793",
+        "phone": "+233 50-228-1793",
         "email": "hello@adinortey.com",
         "address": "Accra, Greater Accra, Ghana <br>GS0359"
     },
     "awards_certs": [
         {
-            "title": "AI Research (AICommons)",
-            "subtitle": "Certification of participation",
+            "title": "Fundamentals of Digital Marketing",
+            "subtitle": "Google Digital Skills for Africa",
+            "image": "aicommons.png"
+        },
+        {
+            "title": "AI4GOOD Research Certificate of Participation",
+            "subtitle": "Superfluid Labs",
             "image": "aicommons.png"
         }
     ],
     "recommendations": [
         {
             "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-            "author": "Richard",
+            "author": "Richard Macwood Owusu",
             "author_title": "COO",
             "author_image": ""
         }
     ],
     "experience": [
         {
-            "designation": "CEO & Director of Technology",
+            "designation": "Managing Director & Chief Technology Officer",
             "company": "Airban Company Limited",
             "company_shortname": "Airban",
-            "role": "Leadership",
-            "from": "June 2018",
+            "role": "Leadership & Engineering",
+            "from": "May 2018",
             "to": "Present",
             "job_type": "Full Time",
-            "job_description": "Adipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor."
+            "job_description": "Lead a team software engineers in the development and implementation of Enterprise Resource Planning applications for SMEs. Work with project managers to allocate and assign projects and tasks to employees. Identify and form key partnerships to grow the company.Develop and deploy software tools for company-wide operations. Handle budgeting, optimize cost of production, analyze and optimize team performance. Create and build company culture and influence staff by it."
         }
     ],
     "education": [
