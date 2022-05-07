@@ -76,14 +76,24 @@
             "job_description": "Developed and maintained enterprise resource management software that helped the company in the recruitment of thousands of mobile money agents for banks. Set up and maintained Google cloud servers for handling company emails. Trained and assisted staff on how to use digital systems in the workplace. Produced and communicated budgets with key stakeholders for technology implementation or optimisation.Developed and maintain the website of the hospital. Implementation, deployment and management of Hospital Management Systems for handling patients and resources of the facility. Liaise with medical professionals to design efficient patient intake and discharge procedures using digital Electronic Medical Record systems. Train and assist new staff on how to use the Electronic Medical Record systems."
         },
         {
-            "designation": "Software Engineer",
-            "company": "Golden Key Group",
+            "designation": "Web Developer",
+            "company": "Freelance",
             "company_shortname": "GKSMS",
-            "role": "Consulting & Engineering",
-            "from": "January 2016",
-            "to": "December 2018",
-            "job_type": "Contract",
-            "job_description": "Developed and maintained enterprise resource management software that helped the company in the recruitment of thousands of mobile money agents for banks. Set up and maintained Google cloud servers for handling company emails. Trained and assisted staff on how to use digital systems in the workplace. Produced and communicated budgets with key stakeholders for technology implementation or optimisation.Developed and maintain the website of the hospital. Implementation, deployment and management of Hospital Management Systems for handling patients and resources of the facility. Liaise with medical professionals to design efficient patient intake and discharge procedures using digital Electronic Medical Record systems. Train and assist new staff on how to use the Electronic Medical Record systems."
+            "role": "Web development",
+            "from": "February 2013",
+            "to": "December 2017",
+            "job_type": "Self-employed",
+            "job_description": "Developed websites and web applications for clients across multiple countries (United States, United Kingdom and Ghana) as a freelancer."
+        },
+        {
+            "designation": "Network Administrator",
+            "company": "Freelance",
+            "company_shortname": "GKSMS",
+            "role": "Web development",
+            "from": "February 2013",
+            "to": "December 2017",
+            "job_type": "Self-employed",
+            "job_description": "Developed websites and web applications for clients across multiple countries (United States, United Kingdom and Ghana) as a freelancer."
         }
     ],
     "education": [
