@@ -38,16 +38,16 @@
     ],
     "recommendations": [
         {
-            "message": "Currently Ghana's most youngest Founder/CEO/CTO of Fast thriving company, Airban Company Ltd. I highly recommend his abilities and indepth knowledge of his specialty. His drive to always exceed expectations of friends of his Businesses moves me deeply. ",
-            "author": "Richard Macwood Owusu",
-            "author_title": "Entrepreneur and Startup Expert",
-            "author_image": "/img/richard.jpeg"
-        },
-        {
             "message": "Mr. Adinortey Lawerteh is one genius, I would say I'm lucky to come across. He is a deadline oriented person, a team player and an innovator in the Field of Software Engineering. I admired him because of his enthusiasm to solve real-world challenges and also because of his deep understanding of Modern-IT technologies.",
             "author": "Silas Agbesi, MD",
             "author_title": "Medical Doctor at HTH | Health Data Scientist",
             "author_image": "/img/silas.jpeg"
+        },
+        {
+            "message": "Currently Ghana's most youngest Founder/CEO/CTO of Fast thriving company, Airban Company Ltd. I highly recommend his abilities and indepth knowledge of his specialty. His drive to always exceed expectations of friends of his Businesses moves me deeply. ",
+            "author": "Richard Macwood Owusu",
+            "author_title": "Entrepreneur and Startup Expert",
+            "author_image": "/img/richard.jpeg"
         },
         {
             "message": "Mr. Adinortey Lawerteh is one genius, I would say I'm lucky to come across. He is a deadline oriented person, a team player and an innovator in the Field of Software Engineering. I admired him because of his enthusiasm to solve real-world challenges and also because of his deep understanding of Modern-IT technologies.",
