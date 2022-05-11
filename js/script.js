@@ -28,7 +28,7 @@ $.ajax({
     });
 
     content.recommendations.forEach(element => {
-      $("#recommendations").append('<div class="col-md-6" > <div data-index="4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 100%;"> <div> <div tabindex="-1" style="width: 100%; display: inline-block;" class="aos-init"> <div class="testimonial-01 media"> <div class="avatar"><img src="'+element.author_image+'" alt="review comments"></div> <div class="media-body"> <p>'+element.message+'</p> <h6>'+element.author+'</h6><span>'+element.author_title+'</span> </div> </div> </div> </div> </div> </div>');
+      $("#recommendations").append('<div class="single-recommendation" > <div data-index="4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 100%;"> <div> <div tabindex="-1" style="width: 100%; display: inline-block;" class="aos-init"> <div class="testimonial-01 media"> <div class="avatar"><img src="'+element.author_image+'" alt="review comments"></div> <div class="media-body"> <p>'+element.message+'</p> <h6>'+element.author+'</h6><span>'+element.author_title+'</span> </div> </div> </div> </div> </div> </div>');
     });
 
 
