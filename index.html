@@ -22,15 +22,91 @@
         .project-description {
             position: absolute;
             top: 0;
-            padding: 35px 27px;
-            background: rgb(0 0 0 / 63%);
+            padding: 30px 35px;
             height: 100%;
-            visibility: hidden;
         }
 
-        .project-image:hover .project-description {
-    visibility: visible;
-}
+        .project-header {
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .project-title {
+            font-size: 40px;
+            margin-top: 65px;
+        }
+
+        .project-category {}
+
+        p.project-details {
+            font-size: 14px;
+        }
+
+        .project-category p {
+            color: rgb(255 255 255 / 86%);
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+
+        a.project-link:hover {
+            background: rgb(255 255 255 / 25%);
+        }
+
+
+        .project-status {
+            margin-top: 20px;
+        }
+
+        .project-tags {
+            margin-top: 102px;
+            font-size: 17px;
+            font-weight: 500;
+            color: #ffffff !important;
+        }
+
+        a.project-link {
+            font-size: 14px;
+            border: 1px solid;
+            width: 125px;
+            text-align: center;
+            border-radius: 4px;
+            padding: 4px 5px;
+        }
+
+        .project-card:hover .project-title {
+            font-size: 20px;
+            margin-top: 0px !important;
+        }
+
+        .project-card:hover .project-tags {
+            display: none !important;
+        }
+
+        .project-card:hover .project-status {
+            display: none !important;
+        }
+
+        .project-card:hover .project-details {
+            display: block !important;
+        }
+
+        .project-card:hover .project-link {
+            display: block !important;
+        }
+
+        .project-image:hover .project-description {}
+
+        .project-icon {
+            height: 70px;
+        }
+
+        .project-icon img {
+            width: auto !important;
+            height: 100%;
+        }
 
 
         .project-image img {
