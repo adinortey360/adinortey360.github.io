@@ -185,7 +185,7 @@
             "category": "Medical",
             "status": "Released",
             "image": "https://via.placeholder.com/512/008080/FFFFFF/?text=ADINORTEY",
-            "description": "The Stroop effect is a phenomenon that explains a lot about how the how the human brain processes information. The brain experiences difficulty naming a color when it is used to spell the name of a different color. It gets much worse for people with cognitive and attention problems like ADHD. <br><br>This project is a simple opensource program that relies on the stroop effect to analyse a person's capacity to pay attention. <br><br>It takes advantage of Google chrome's speech recognition engine to capture the pronounciation of colors displayed on the screen labelled with the name of other colors to calculate an attention score.<br><br>The goal of this project is to help neurospecialists and psychologists speed up diagnostics.<br><br>Technology stack: Python Flask, HTML, CSS, JQuery and Google Chrome speech recognition.",
+            "description": "This project is a simple opensource program that relies on the stroop effect to analyse a person's capacity to pay attention. <br><br>It takes advantage of Google chrome's speech recognition engine to capture the pronounciation of colors displayed on the screen labelled with the name of other colors to calculate an attention score.<br><br>The goal of this project is to help neurospecialists and psychologists speed up diagnostics.<br><br>Technology stack: Python Flask, HTML, CSS, JQuery and Google Chrome speech recognition.",
             "link": "https://github.com/adinortey360/strooptest",
             "link_icon": ""
         },
