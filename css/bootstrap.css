@@ -14682,7 +14682,7 @@ button {
 }
 
 .testimonial-01 {
-    background: #0b0b13;
+    /*background: #0b0b13;*/
     padding: 35px;
     border-radius: 10px;
     overflow: hidden;
@@ -14691,7 +14691,7 @@ button {
 }
 
 .theme-light .testimonial-01 {
-    background: #fff
+    /*background: #fff*/
 }
 
 .testimonial-01 .avatar {
@@ -16179,7 +16179,7 @@ section.testimonial {
 .theme-dark .feature-box-01,
 .theme-dark .feature-box-02,
 .theme-dark .testimonial-01 {
-    background: #010101
+    /*background: #010101*/
 }
 
 .theme-dark .separated {
