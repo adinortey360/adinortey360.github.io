@@ -1,0 +1,301 @@
+{
+    "greeting": "Hello there 👋, this is",
+    "greeting_name": "Adinortey Lawerteh",
+    "job_title": "Full-Stack Software Engineer",
+    "short_bio": "I'm a full-stack software engineer with 11+ years of relevant experience, an entrepreneur and a content creator. I've always been a firm believer in changing the world through the use of science and technology.",
+    "bio": {
+        "full_bio": "<p>I'm a full-stack software engineer with 11+ years of relevant experience, an entrepreneur and a content creator. I've always been a firm believer in changing the world through the use of science and technology. This is what has motivated my career choices. </p> <p>In today's digital world, everything and anything is becoming automated. Technology is evolving every day and it continues to change the way we live. This is why it's important to me that I invest in my learning and development. I have done this by investing time into starting new and challenging projects with the latest technologies with the intention of brute-forcing my way into new fields in the technology space. This has paid off very well so far.</p> <p> If you catch me outside, I'm talking about science, technology and airplanes. </p>",
+        "extras": {
+            "name": "Adinortey Lawerteh",
+            "location": "Accra, Ghana 🇬🇭",
+            "interests": "Science, Tech & Airplanes",
+            "hobbies": "Building things & flying simulators",
+            "phone": "+233 50-228-1793",
+            "email": "hello@adinortey.com",
+            "languages": "EN (90%), FR (15%)",
+            "fun_fact": "I started coding at 13"
+        }
+    },
+    "contacts": {
+        "title": "What’s your story? Get in touch",
+        "subtitle": "Always available for interesting opportunities. Feel free to contact me.",
+        "say_something": "Say Something",
+        "phone": "+233 50-228-1793",
+        "email": "hello@adinortey.com",
+        "address": "Accra, Ghana"
+    },
+    "awards_certs": [
+        {
+            "title": "Fundamentals of Digital Marketing",
+            "subtitle": "Google Digital Skills for Africa",
+            "image": "img/google.png"
+        },
+        {
+            "title": "AI4GOOD Research Certificate of Participation",
+            "subtitle": "Superfluid Labs",
+            "image": "img/superfluid.png"
+        }
+    ],
+    "recommendations": [
+        {
+            "message": "\"Mr. Adinortey Lawerteh is one genius, I would say I'm lucky to come across. He is a deadline oriented person, a team player and an innovator in the Field of Software Engineering. I admired him because of his enthusiasm to solve real-world challenges and also because of his deep understanding of Modern-IT technologies.\"",
+            "author": "Silas Agbesi, MD",
+            "author_title": "Medical Doctor at HTH | Health Data Scientist",
+            "author_image": "/img/silas.jpeg"
+        },
+        {
+            "message": "\"Currently Ghana's most youngest Founder/CEO/CTO of Fast thriving company, Airban Company Ltd. I highly recommend his abilities and indepth knowledge of his specialty. His drive to always exceed expectations of friends of his Businesses moves me deeply.\"",
+            "author": "Richard Macwood Owusu",
+            "author_title": "Entrepreneur and Startup Expert",
+            "author_image": "/img/richard.jpeg"
+        },
+        {
+            "message": "\"Mr. Adinortey Lawerteh is one genius, I would say I'm lucky to come across. He is a deadline oriented person, a team player and an innovator in the Field of Software Engineering. I admired him because of his enthusiasm to solve real-world challenges and also because of his deep understanding of Modern-IT technologies.\"",
+            "author": "Silas Agbesi, MD",
+            "author_title": "Medical Doctor at HTH | Health Data Scientist",
+            "author_image": "/img/silas.jpeg"
+        },
+        {
+            "message": "\"Rivet Technology started some business relationship with Airban a couple of years ago and have never regretted. Known Adinortey since 2018 when l first reached out to him for a discussion on an IT solution. He's never disappointed. His time, patience and indepth solutions analysis are amazing. I see this young man as one of the emerging great IT gurus in the country and beyond and a fantastic entrepreneur too. l strongly stand by this gentleman and what he represents.\"",
+            "author": "Adolph Reinhold",
+            "author_title": "Channel Development Manager, Nestle",
+            "author_image": "/img/avatar.png"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Managing Director & Chief Technology Officer",
+            "company": "Airban Company Limited",
+            "company_shortname": "Airban",
+            "role": "Leadership & Engineering",
+            "from": "May 2018",
+            "to": "Present",
+            "job_type": "Full Time",
+            "job_description": "Lead a team software engineers in the development and implementation of Enterprise Resource Planning applications for SMEs. Work with project managers to allocate and assign projects and tasks to employees. Identify and form key partnerships to grow the company.Develop and deploy software tools for company-wide operations. Handle budgeting, optimize cost of production, analyze and optimize team performance. Create and build company culture and influence staff by it."
+        },
+        {
+            "designation": "Information Technology Manager",
+            "company": "BreatheESB Medical Center",
+            "company_shortname": "BreatheESB",
+            "role": "IT & Engineering",
+            "from": "March 2021",
+            "to": "Present",
+            "job_type": "Contract",
+            "job_description": "Developed and maintain the website of the hospital. Implementation, deployment and management of Hospital Management Systems for handling patients and resources of the facility. Liaise with medical professionals to design efficient patient intake and discharge procedures using digital Electronic Medical Record systems. Train and assist new staff on how to use the Electronic Medical Record systems."
+        },
+        {
+            "designation": "Software Engineer",
+            "company": "Golden Key Group",
+            "company_shortname": "GKSMS",
+            "role": "Consulting & Engineering",
+            "from": "January 2016",
+            "to": "December 2018",
+            "job_type": "Contract",
+            "job_description": "Developed and maintained enterprise resource management software that helped the company in the recruitment of thousands of mobile money agents for banks. Set up and maintained Google cloud servers for handling company emails. Trained and assisted staff on how to use digital systems in the workplace. Produced and communicated budgets with key stakeholders for technology implementation or optimisation.Developed and maintain the website of the hospital. Implementation, deployment and management of Hospital Management Systems for handling patients and resources of the facility. Liaise with medical professionals to design efficient patient intake and discharge procedures using digital Electronic Medical Record systems. Train and assist new staff on how to use the Electronic Medical Record systems."
+        },
+        {
+            "designation": "Web Developer",
+            "company": "Freelancing",
+            "company_shortname": "Freelance",
+            "role": "Web Development",
+            "from": "February 2013",
+            "to": "December 2017",
+            "job_type": "Self-employed",
+            "job_description": "Developed websites and web applications for clients across multiple countries (United States, United Kingdom and Ghana) as a freelancer."
+        },
+        {
+            "designation": "Network Administrator",
+            "company": "Courtyard Hill Internet Cafe",
+            "company_shortname": "Internet Cafe",
+            "role": "Networking & Management",
+            "from": "June 2011",
+            "to": "May 2012",
+            "job_type": "Self-employed",
+            "job_description": "Handled networking of computers and internet connectivity. Implemented and managed a captive portal for time logging and internet browsing fees collection. Repaired hardware problems with computers in the cafe and also for visiting clients."
+        }
+    ],
+    "education": [
+        {
+            "from": "2021",
+            "to": "Present",
+            "course_title": "Bachelor of Science in Business Administration",
+            "institution": "Accra Institute of Technology"
+        },
+        {
+            "from": "2020",
+            "to": "2021",
+            "course_title": "Diploma of Technology in Business Administration",
+            "institution": "Accra Institute of Technology"
+        },
+        {
+            "from": "2019",
+            "to": "2019",
+            "course_title": "Entrepreneurship",
+            "institution": "Founder Institute"
+        },
+        {
+            "from": "2012",
+            "to": "2015",
+            "course_title": "General Science",
+            "institution": "Chemu Senior High School"
+        }
+    ],
+    "skills": [
+        {
+            "skill": "Python",
+            "rating": 90
+        },
+        {
+            "skill": "PHP",
+            "rating": 95
+        },
+        {
+            "skill": "Node.js",
+            "rating": 80
+        },
+        {
+            "skill": "SQL",
+            "rating": 85
+        },
+        {
+            "skill": "REST APIs",
+            "rating": 98
+        },
+        {
+            "skill": "AI/ML",
+            "rating": 70
+        },
+        {
+            "skill": "Frontend (HTML, CSS, Javascript)",
+            "rating": 90
+        }
+    ],
+    "projects": [
+        {
+            "name": "Medicon Health Telemedicine Platform",
+            "category": "Medical Platform",
+            "status": "Launched in May 2022",
+            "image": "img/hex.png",
+            "description": "Medicon Health is a telemedicine platform that affords users access to medical services including, medical consultations, pharmacy services and laboratory services digitally.<br><br>Features: Authentication, doctor profiles, pharmacy, prescription scanning, video and voice consultations, order management, booking, Point of Sale and drug delivery tracking.<br><br>Technology stack: Flutter, PHP, Laravel, MySQL, Firebase, Google Cloud services and Agora.",
+            "link": "https://mediconhealth.com",
+            "icon": "img/medicon.png",
+            "bg_color": "#1D5348",
+            "tags": "#medical #health #consulting"
+        },
+        {
+            "name": "Strooptest cognitive analysis software",
+            "category": "Medical Program",
+            "status": "Open Source",
+            "image": "https://random.imagecdn.app/500/500",
+            "description": "This project is a simple opensource program that relies on the stroop effect to analyse a person's capacity to pay attention. <br><br>It takes advantage of Google chrome's speech recognition engine to capture the pronounciation of colors displayed on the screen labelled with the name of other colors to calculate an attention score.<br><br>The goal of this project is to help neurospecialists and psychologists speed up diagnostics.<br><br>Technology stack: Python Flask, HTML, CSS, JQuery and Google Chrome speech recognition.",
+            "link": "https://github.com/adinortey360/strooptest",
+            "icon": "img/adhd-rainbow-butterfly.png",
+            "bg_color": "#2F2963",
+            "tags": "#medical #health #mentalhealth"
+        },
+        {
+            "name": "TrustExpress smart courier app",
+            "category": "Logistics & Transportation",
+            "status": "Released",
+            "image": "https://random.imagecdn.app/500/500",
+            "description": "Developed to enable intra-city courier services. The platform enables delivery bike riders receive requests from nearby customers requesting package delivery services. Rider does the pickup and delivers to the destination.<br><br>Features: Delivery requests by customers and on behalf of others, riders alerts by ringing, smart routing and navigation, price computations by distance and package parameters, remote tracking of rider. <br><br>Technology stack: Flutter, PHP, Laravel, MySQL, Firebase, Google Cloud services and Oracle Cloud Infrastructure.",
+            "link": "https://play.google.com/store/apps/details?id=gh.trust.express",
+            "icon": "img/trustexpress.png",
+            "bg_color": "#FF5400",
+            "tags": "#logistics #transport #deliveries"
+        },
+        {
+            "name": "BloodWork for medical laboratories",
+            "category": "Medical",
+            "status": "Open Source",
+            "image": "https://random.imagecdn.app/500/500",
+            "description": "An opensource flutter mobile application to help medical laboratories receive lab requests from patients and doctors for home service sample collection and result transmission.<br><br>The goal of this project is to create a platform for people with mobility concerns to get access to laboratory services without the need to visit the lab.<br><br>The application started in FlutterFlow and then customised in pure flutter code.<br><br>Technology stack: Flutter and Firebase.",
+            "link": "https://github.com/adinortey360/bloodwork",
+            "icon": "img/bloodwork.png",
+            "bg_color": "#A40606",
+            "tags": "#medical #health #labtests"
+        },
+        {
+            "name": "Rokel airline ticket system setup",
+            "category": "Travel & Tour",
+            "status": "Released",
+            "image": "img/rokeltravel.png",
+            "description": "Setup of airline ticket and hotel reservation system for travelers to compare prices and purchase airline tickets. They are allowed to also compare hotel prices from anywhere in the world and make reservations through affiliation with major booking platforms.",
+            "link": "https://rokeltravels.com",
+            "icon": "img/rokel.png",
+            "bg_color": "#1E2EDE",
+            "tags": "#travel #airlines #bookings"
+        },
+        {
+            "name": "Rokel shipment booking and tracking system",
+            "category": "Logistics & Transportation",
+            "status": "Released",
+            "image": "img/rokel.png",
+            "description": "Designed and developed a shipment booking and tracking system to handle quotation generation and price comparisons for various freight services.<br><br>Features: Quotation generation with price comparisons, user authentication, booking, payment collection and shipping document generation.<br><br>Technology stack: PHP, Jquery, Firebase and WordPress for the homepage.",
+            "link": "https://rokelshipping.co.uk",
+            "icon": "img/rokel.png",
+            "bg_color": "#3C91E6",
+            "tags": "#medical #health #labtests"
+        },
+        {
+            "name": "Airban Enterprise Resource Planning",
+            "category": "Business Management Platform",
+            "status": "Released",
+            "image": "https://random.imagecdn.app/500/500",
+            "description": "An Enterprise Resource Planning platform simplified for operating small to medium scale enterprises.<br><br>The platform handles sales, Human Resource, expense and budgeting, project management, accounting and other business activities.<br><br>Technology stack: Python, MySQL, Angular and Firebase.",
+            "link": "https://goairban.com",
+            "icon": "img/airban.png",
+            "bg_color": "#0E273C",
+            "tags": "#business #erp #crm #pos"
+        },
+        {
+            "name": "Getmybox subscription box mobile app",
+            "category": "Transportation & Logistics",
+            "status": "Released",
+            "image": "https://random.imagecdn.app/500/500",
+            "description": "An Enterprise Resource Planning platform simplified for operating small to medium scale enterprises.<br><br>The platform handles sales, Human Resource, expense and budgeting, project management, accounting and other business activities.<br><br>Technology stack: Python, MySQL, Angular and Firebase.",
+            "link": "https://play.google.com/store/apps/details?id=get.mybox.me",
+            "icon": "img/mybox.png",
+            "bg_color": "#037971",
+            "tags": "#beauty #essentials #fashion #deliveries"
+        },
+        {
+            "name": "Healthcarology medical records app",
+            "category": "Medical App",
+            "status": "Released",
+            "image": "https://random.imagecdn.app/500/500",
+            "description": "Healthcarology is a medical application for personal health records. It keeps track of users  health and enables instant access to insights by care providers.<br><br>Technology stack: Flutter, Python, PHP, Laravel, MySQL, Firebase, Amazon Web Services, Oracle Cloud Infrastructure.",
+            "link": "https://play.google.com/store/apps/details?id=com.healthcarology.healthcarology",
+            "icon": "img/hc.png",
+            "bg_color": "#01295F",
+            "tags": "#medical #medicalrecords"
+        },
+        {
+            "name": "Digital signage content management system",
+            "category": "Business Advertising",
+            "status": "Released",
+            "image": "https://random.imagecdn.app/500/500",
+            "description": "Signage CMS is a content management system to manage digital signages and displays accross an organisation through a Raspberry pi server. <br><br>It enables the delivery of important information to audience in realtime. <br><br>Features: Video manager and player, RSS feed integration, screen management, queue management, presentation and templates management.<br><br> Technology Stack: PHP Laravel and MySQL.",
+            "link": "https://play.google.com/store/apps/details?id=com.healthcarology.healthcarology",
+            "icon": "img/signage.png",
+            "bg_color": "#392F5A",
+            "tags": "#business #advertising #media"
+        }
+    ],
+    "lastest_posts": [
+        {
+            "title": "Blockchain: People want their freedoms back",
+            "platform": "Medium",
+            "date": "22/APR/2022",
+            "image": "https://miro.medium.com/max/700/1*BJKPVwcMuENrSOBvvyopcA.jpeg",
+            "link": "https://medium.com/@adinortey360/blockchain-people-want-their-freedoms-back-e25f21ebbde2"
+        },
+        {
+            "title": "What programming languages should you learn?",
+            "platform": "Medium",
+            "date": "10/MAY/2022",
+            "image": "https://miro.medium.com/max/1400/1*QZo3xHwdtyGFmBtsuEXdyw.jpeg",
+            "link": "https://medium.com/@adinortey360/what-programming-languages-should-you-learn-34a247c52f16"
+        }
+    ]
+}
