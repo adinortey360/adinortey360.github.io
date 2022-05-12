@@ -276,7 +276,7 @@
             "status": "Released",
             "image": "https://random.imagecdn.app/500/500",
             "description": "Signage CMS is a content management system to manage digital signages and displays accross an organisation through a Raspberry pi server. <br><br>It enables the delivery of important information to audience in realtime. <br><br>Features: Video manager and player, RSS feed integration, screen management, queue management, presentation and templates management.<br><br> Technology Stack: PHP Laravel and MySQL.",
-            "link": "https://play.google.com/store/apps/details?id=com.healthcarology.healthcarology",
+            "link": "https://github.com/adinortey360/digitalsignagecms",
             "icon": "img/signage.png",
             "bg_color": "#392F5A",
             "tags": "#business #advertising #media"
