@@ -94,8 +94,10 @@ window.addEventListener("scroll", function () {
     currentpage = "contact";
   }
 
+
   var elementTarget = document.getElementById("blog");
-  if (window.scrollY <= (elementTarget.offsetTop + elementTarget.offsetHeight)) {
+  //Sbtract 100 to decrease how long until we are able to reach contact section
+  if (window.scrollY <= (elementTarget.offsetTop + elementTarget.offsetHeight) - 100) {
     console.log("You are at blog");
     currentpage = "blog";
   }
@@ -125,7 +127,7 @@ window.addEventListener("scroll", function () {
   }
 
   setCurrentActiveMenu(currentpage);
-  
+
 });
 
 function setCurrentActiveMenu(currentpage) {
