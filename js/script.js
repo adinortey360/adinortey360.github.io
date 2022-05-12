@@ -89,7 +89,7 @@ $.ajax({
 window.addEventListener("scroll", function () {
   var currentpage;
   var elementTarget = document.getElementById("contactus");
-  if (window.scrollY <= (elementTarget.offsetTop + elementTarget.offsetHeight)) {
+  if (window.scrollY <= (elementTarget.offsetTop + elementTarget.offsetHeight) - 10) {
     console.log("You are at contact");
     currentpage = "contact";
   }
@@ -103,29 +103,30 @@ window.addEventListener("scroll", function () {
   }
 
   var elementTarget = document.getElementById("work");
-  if (window.scrollY <= (elementTarget.offsetTop + elementTarget.offsetHeight)) {
+  if (window.scrollY <= (elementTarget.offsetTop + elementTarget.offsetHeight) - 10) {
     console.log("You are at works");
     currentpage = "work";
   }
-
+ 
   var elementTarget = document.getElementById("resume");
-  if (window.scrollY <= (elementTarget.offsetTop + elementTarget.offsetHeight)) {
+  if (window.scrollY <= (elementTarget.offsetTop + elementTarget.offsetHeight) - 10) {
     console.log("You are at resume");
     currentpage = "resume";
   }
 
   var elementTarget = document.getElementById("about");
-  if (window.scrollY <= (elementTarget.offsetTop + elementTarget.offsetHeight)) {
+  if (window.scrollY <= (elementTarget.offsetTop + elementTarget.offsetHeight) - 10) {
     console.log("You are at about");
     currentpage = "about";
   }
 
   var elementTarget = document.getElementById("home");
-  if (window.scrollY <= (elementTarget.offsetTop + elementTarget.offsetHeight)) {
+  if (window.scrollY <= (elementTarget.offsetTop + elementTarget.offsetHeight) - 10) {
     console.log("You are home");
     currentpage = "home";
   }
 
+  //call to activate menu item
   setCurrentActiveMenu(currentpage);
 
 });
