@@ -47,36 +47,36 @@ $.ajax({
   content.projects.forEach(element => {
     $("#projects").append(
       '<div class="col-md-6">' +
-        '<div class="project-card" style=" background: none; padding: 0px; margin-bottom: 10px; ">' +
-          '<div class="row"> ' +
-            '<div class="col-md-12 col-xl-12">' +
-              '<div style="background-color: ' + element.bg_color + ';background-image: url("' + element.image + '");">' +
-                '<div class="project-image">' +
-                  '<div class="project-description">' +
+      '<div class="project-card" style=" background: none; padding: 0px; margin-bottom: 10px; ">' +
+      '<div class="row"> ' +
+      '<div class="col-md-12 col-xl-12">' +
+      '<div style="background-color: ' + element.bg_color + ';background-image: url("' + element.image + '");">' +
+      '<div class="project-image">' +
+      '<div class="project-description">' +
 
-                    '<div class="project-header">' +
-                      '<div class="project-icon">' +
-                        '<img src="' + element.icon + '" />'+
-                      '</div>' +
-                      '<div class="project-category">' +
-                        '<p>' + element.category + '</p>' +
-                      '</div>' +
-                    '</div>' +
+      '<div class="project-header">' +
+      '<div class="project-icon">' +
+      '<img src="' + element.icon + '" />' +
+      '</div>' +
+      '<div class="project-category">' +
+      '<p>' + element.category + '</p>' +
+      '</div>' +
+      '</div>' +
 
-                    '<h6 class="project-title">' + element.name + '.</h6>' +
-                    '<p class="project-details" style="display:none">' + element.description + '</p>' +
-                    '<p class="project-status">' + element.status + '</p>' +
-                    '<p class="project-tags">' + element.tags + '</p>' +
-                    '<a class="project-link" style="display:none;color: #fff;font-weight: 400;" href="' + element.link + '" target="_blank">Show Project</a>' +
-                  '</div>' +
-                  
-                '</div>' +
-              '</div>' +
-            '</div>' +
-          '</div>' +
-        '</div>' +
+      '<h6 class="project-title">' + element.name + '.</h6>' +
+      '<p class="project-details" style="display:none">' + element.description + '</p>' +
+      '<p class="project-status">' + element.status + '</p>' +
+      '<p class="project-tags">' + element.tags + '</p>' +
+      '<a class="project-link" style="display:none;color: #fff;font-weight: 400;" href="' + element.link + '" target="_blank">Show Project</a>' +
+      '</div>' +
+
+      '</div>' +
+      '</div>' +
+      '</div>' +
+      '</div>' +
+      '</div>' +
       '</div>'
-      );
+    );
   });
 
 
@@ -84,3 +84,115 @@ $.ajax({
     $("#lastest_posts").append('<div class="col-md-6 m-15px-tb aos-init" > <div class="blog-grid"> <div class="blog-img"><img src="' + element.image + '" alt="blog post"></div> <div class="blog-info"> <div class="meta">' + element.date + ' - ' + element.platform + '</div> <h6><a href="' + element.link + '" style="cursor: none;">' + element.title + '</a></h6> </div> </div> </div>');
   });
 });
+
+
+window.addEventListener("scroll", function () {
+  var currentpage;
+  var elementTarget = document.getElementById("contactus");
+  if (window.scrollY <= (elementTarget.offsetTop + elementTarget.offsetHeight)) {
+    console.log("You are at contact");
+    currentpage = "contact";
+  }
+
+  var elementTarget = document.getElementById("blog");
+  if (window.scrollY <= (elementTarget.offsetTop + elementTarget.offsetHeight)) {
+    console.log("You are at blog");
+    currentpage = "blog";
+  }
+
+  var elementTarget = document.getElementById("work");
+  if (window.scrollY <= (elementTarget.offsetTop + elementTarget.offsetHeight)) {
+    console.log("You are at works");
+    currentpage = "work";
+  }
+
+  var elementTarget = document.getElementById("resume");
+  if (window.scrollY <= (elementTarget.offsetTop + elementTarget.offsetHeight)) {
+    console.log("You are at resume");
+    currentpage = "resume";
+  }
+
+  var elementTarget = document.getElementById("about");
+  if (window.scrollY <= (elementTarget.offsetTop + elementTarget.offsetHeight)) {
+    console.log("You are at about");
+    currentpage = "about";
+  }
+
+  var elementTarget = document.getElementById("home");
+  if (window.scrollY <= (elementTarget.offsetTop + elementTarget.offsetHeight)) {
+    console.log("You are home");
+    currentpage = "home";
+  }
+
+  setCurrentActiveMenu(currentpage);
+  
+});
+
+function setCurrentActiveMenu(currentpage) {
+  switch (currentpage) {
+    case "home":
+      $("#menu_home").addClass("active");
+      $("#menu_about").removeClass("active");
+      $("#menu_resume").removeClass("active");
+      $("#menu_work").removeClass("active");
+      $("#menu_blog").removeClass("active");
+      $("#menu_contact").removeClass("active");
+      break;
+
+    case "about":
+      $("#menu_home").removeClass("active");
+      $("#menu_about").addClass("active");
+      $("#menu_resume").removeClass("active");
+      $("#menu_work").removeClass("active");
+      $("#menu_blog").removeClass("active");
+      $("#menu_contact").removeClass("active");
+      break;
+
+    case "resume":
+      $("#menu_home").removeClass("active");
+      $("#menu_about").removeClass("active");
+      $("#menu_resume").addClass("active");
+      $("#menu_work").removeClass("active");
+      $("#menu_blog").removeClass("active");
+      $("#menu_contact").removeClass("active");
+      break;
+
+
+    case "work":
+      $("#menu_home").removeClass("active");
+      $("#menu_about").removeClass("active");
+      $("#menu_resume").removeClass("active");
+      $("#menu_work").addClass("active");
+      $("#menu_blog").removeClass("active");
+      $("#menu_contact").removeClass("active");
+      break;
+
+
+    case "blog":
+      $("#menu_home").removeClass("active");
+      $("#menu_about").removeClass("active");
+      $("#menu_resume").removeClass("active");
+      $("#menu_work").removeClass("active");
+      $("#menu_blog").addClass("active");
+      $("#menu_contact").removeClass("active");
+      break;
+
+    case "contact":
+      $("#menu_home").removeClass("active");
+      $("#menu_about").removeClass("active");
+      $("#menu_resume").removeClass("active");
+      $("#menu_work").removeClass("active");
+      $("#menu_blog").removeClass("active");
+      $("#menu_contact").addClass("active");
+      break;
+
+    default:
+      $("#menu_home").addClass("active");
+      $("#menu_about").removeClass("active");
+      $("#menu_resume").removeClass("active");
+      $("#menu_work").removeClass("active");
+      $("#menu_blog").removeClass("active");
+      $("#menu_contact").removeClass("active");
+      break;
+  }
+}

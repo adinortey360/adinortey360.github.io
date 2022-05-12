@@ -11,7 +11,7 @@
     <title>Adinortey Lawerteh | Software Developer</title>
     <link href="css/topup.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
-    <style></style>
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <style type="text/css">
         .project-image {
             height: 480px;
@@ -255,7 +255,7 @@
                         <div class="hl-logo"><a href="/">A</a></div>
                     </div>
                     <ul class="nav nav-menu">
-                        <li class="active"><a class="nav-link " href="#home" data-tip="true" data-for="HOME"
+                        <li id="menu_home"><a class="nav-link " href="#home" data-tip="true" data-for="HOME"
                                 currentitem="false"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
                                     viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -349,7 +349,7 @@
                                     </style><span>Home</span>
                                 </div>
                             </a></li>
-                        <li class=""><a class="nav-link" href="#about" data-tip="true" data-for="ABOUT"
+                        <li class="" id="menu_about"><a class="nav-link" href="#about" data-tip="true" data-for="ABOUT"
                                 currentitem="false" style="cursor: none;"><svg stroke="currentColor" fill="none"
                                     stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
                                     height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
@@ -443,7 +443,7 @@
                                     </style><span>About</span>
                                 </div>
                             </a></li>
-                        <li class=""><a class="nav-link" href="#resume" data-tip="true" data-for="RESUME"
+                        <li id="menu_resume"><a class="nav-link" href="#resume" data-tip="true" data-for="RESUME"
                                 currentitem="false" style="cursor: none;"><svg stroke="currentColor" fill="none"
                                     stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
                                     height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
@@ -540,7 +540,7 @@
                                     </style><span>Resume</span>
                                 </div>
                             </a></li>
-                        <li class=""><a class="nav-link" href="#work" data-tip="true" data-for="WORK"
+                        <li id="menu_work"><a class="nav-link" href="#work" data-tip="true" data-for="WORK"
                                 currentitem="false" style="cursor: none;"><svg stroke="currentColor" fill="none"
                                     stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
                                     height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
@@ -634,7 +634,7 @@
                                     </style><span>Work</span>
                                 </div>
                             </a></li>
-                        <li class=""><a class="nav-link" href="#blog" data-tip="true" data-for="BLOG"
+                        <li id="menu_blog"><a class="nav-link" href="#blog" data-tip="true" data-for="BLOG"
                                 currentitem="false" style="cursor: none;"><svg stroke="currentColor" fill="currentColor"
                                     stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -729,7 +729,7 @@
                                     </style><span>Blog</span>
                                 </div>
                             </a></li>
-                        <li class=""><a class="nav-link" href="#contactus" data-tip="true" data-for="CONTACT"
+                        <li id="menu_contact"><a class="nav-link" href="#contactus" data-tip="true" data-for="CONTACT"
                                 currentitem="false" style="cursor: none;"><svg stroke="currentColor" fill="none"
                                     stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
                                     height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
@@ -1042,11 +1042,11 @@
                                 <h4 id="contact_title"></h4>
                                 <p id="contact_subtitle"></p>
                                 <ul>
-                                    <li class="media"><i class="icon icon-map"></i><span class="media-body"
+                                    <li class="media"><span class="lnr lnr-map" style=" font-weight: bolder; "></span><span class="media-body"
                                             id="contact_address"></span></li>
-                                    <li class="media"><i class="icon icon-envelope"></i><span class="media-body"
+                                    <li class="media"><span class="lnr lnr-envelope" style=" font-weight: bolder; "></span><span class="media-body"
                                             id="contact_email"></span></li>
-                                    <li class="media"><i class="icon icon-phone"></i><span class="media-body"
+                                    <li class="media"><span class="lnr lnr-phone" style=" font-weight: bolder; "></span><span class="media-body"
                                             id="contact_phone"></span></li>
                                 </ul>
                             </div>
@@ -1167,6 +1167,7 @@
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/script.js"></script>
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
 </body>
 
 </html>
