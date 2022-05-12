@@ -1,64 +1,64 @@
 {
-    "greeting": "Hello there 👋, this is",
+    "greeting": "Bonjour 👋, c'est",
     "greeting_name": "Adinortey Lawerteh",
-    "job_title": "Full-Stack Software Engineer",
-    "short_bio": "I'm a full-stack software engineer with 11+ years of relevant experience, an entrepreneur and a content creator. I've always been a firm believer in changing the world through the use of science and technology.",
+    "job_title": "Ingénieur Logiciel Full Stack",
+    "short_bio": "Je suis un ingénieur logiciel full-stack avec plus de 11 ans d'expérience pertinente, un entrepreneur et un créateur de contenu. J'ai toujours cru fermement à changer le monde grâce à l'utilisation de la science et de la technologie.",
     "bio": {
-        "full_bio": "<p>I'm a full-stack software engineer with 11+ years of relevant experience, an entrepreneur and a content creator. I've always been a firm believer in changing the world through the use of science and technology. This is what has motivated my career choices. </p> <p>In today's digital world, everything and anything is becoming automated. Technology is evolving every day and it continues to change the way we live. This is why it's important to me that I invest in my learning and development. I have done this by investing time into starting new and challenging projects with the latest technologies with the intention of brute-forcing my way into new fields in the technology space. This has paid off very well so far.</p> <p> If you catch me outside, I'm talking about science, technology and airplanes. </p>",
+        "full_bio": "<p>Je suis un ingénieur logiciel full-stack avec plus de 11 ans d'expérience pertinente, un entrepreneur et un créateur de contenu. J'ai toujours cru fermement à changer le monde grâce à l'utilisation de la science et de la technologie. C'est ce qui a motivé mes choix de carrière. </p> <p>Dans le monde numérique d'aujourd'hui, tout et n'importe quoi devient automatisé. La technologie évolue chaque jour et continue de changer notre façon de vivre. C'est pourquoi il est important pour moi d'investir dans mon apprentissage et mon développement. Je l'ai fait en investissant du temps dans le démarrage de projets nouveaux et stimulants avec les dernières technologies avec l'intention de me frayer un chemin brutalement dans de nouveaux domaines de l'espace technologique. Cela a très bien porté ses fruits jusqu'à présent.</p> <p> Si vous me voyez dehors, je parle de science, de technologie et d'avions.</p>",
         "extras": {
             "name": "Adinortey Lawerteh",
             "location": "Accra, Ghana 🇬🇭",
-            "interests": "Science, Tech & Airplanes",
-            "hobbies": "Building things & flying simulators",
+            "interests": "Science, technologie et avions",
+            "hobbies": "Construire des objets et des simulateurs de vol",
             "phone": "+233 50-228-1793",
             "email": "hello@adinortey.com",
             "languages": "EN (90%), FR (15%)",
-            "fun_fact": "I started coding at 13"
+            "fun_fact": "J'ai commencé à coder à 13 ans"
         }
     },
     "contacts": {
-        "title": "What’s your story? Get in touch",
-        "subtitle": "Always available for interesting opportunities. Feel free to contact me.",
-        "say_something": "Say Something",
+        "title": "Quelle est ton histoire? Entrer en contact",
+        "subtitle": "Toujours disponible pour des opportunités intéressantes. N'hésitez pas à me contacter",
+        "say_something": "Dire quelque chose",
         "phone": "+233 50-228-1793",
         "email": "hello@adinortey.com",
         "address": "Accra, Ghana"
     },
     "awards_certs": [
         {
-            "title": "Fundamentals of Digital Marketing",
-            "subtitle": "Google Digital Skills for Africa",
+            "title": "Fondamentaux du marketing numérique",
+            "subtitle": "Compétences numériques de Google pour l'Afrique",
             "image": "img/google.png"
         },
         {
-            "title": "AI4GOOD Research Certificate of Participation",
+            "title": "Certificat de participation à la recherche AI4GOOD",
             "subtitle": "Superfluid Labs",
             "image": "img/superfluid.png"
         }
     ],
     "recommendations": [
         {
-            "message": "\"Mr. Adinortey Lawerteh is one genius, I would say I'm lucky to come across. He is a deadline oriented person, a team player and an innovator in the Field of Software Engineering. I admired him because of his enthusiasm to solve real-world challenges and also because of his deep understanding of Modern-IT technologies.\"",
-            "author": "Silas Agbesi, MD",
-            "author_title": "Medical Doctor at HTH | Health Data Scientist",
+            "message": "\"M. Adinortey Lawerteh est un génie, je dirais que j'ai de la chance de le rencontrer. Il est une personne soucieuse des délais, un joueur d'équipe et un innovateur dans le domaine du génie logiciel. Je l'admirais pour son enthousiasme à résoudre les défis du monde réel et aussi pour sa profonde compréhension des technologies modernes de l'informatique.\"",
+            "author": "Silas Agbesi, M.D.",
+            "author_title": "Médecin chez HTH | Scientifique des données de santé",
             "author_image": "/img/silas.jpeg"
         },
         {
-            "message": "\"Currently Ghana's most youngest Founder/CEO/CTO of Fast thriving company, Airban Company Ltd. I highly recommend his abilities and indepth knowledge of his specialty. His drive to always exceed expectations of friends of his Businesses moves me deeply.\"",
+            "message": "\"Actuellement le plus jeune fondateur / PDG / CTO du Ghana d'une entreprise en plein essor, Airban Company Ltd. Je recommande vivement ses capacités et sa connaissance approfondie de sa spécialité. Sa volonté de toujours dépasser les attentes des amis de ses entreprises m'émeut profondément.\"",
             "author": "Richard Macwood Owusu",
-            "author_title": "Entrepreneur and Startup Expert",
+            "author_title": "Entrepreneur et Expert Startup",
             "author_image": "/img/richard.jpeg"
         },
         {
-            "message": "\"Mr. Adinortey Lawerteh is one genius, I would say I'm lucky to come across. He is a deadline oriented person, a team player and an innovator in the Field of Software Engineering. I admired him because of his enthusiasm to solve real-world challenges and also because of his deep understanding of Modern-IT technologies.\"",
-            "author": "Silas Agbesi, MD",
-            "author_title": "Medical Doctor at HTH | Health Data Scientist",
+            "message": "\"M. Adinortey Lawerteh est un génie, je dirais que j'ai de la chance de le rencontrer. Il est une personne soucieuse des délais, un joueur d'équipe et un innovateur dans le domaine du génie logiciel. Je l'admirais pour son enthousiasme à résoudre les défis du monde réel et aussi pour sa profonde compréhension des technologies modernes de l'informatique.\"",
+            "author": "Silas Agbesi, M.D.",
+            "author_title": "Médecin chez HTH | Scientifique des données de santé",
             "author_image": "/img/silas.jpeg"
         },
         {
-            "message": "\"Rivet Technology started some business relationship with Airban a couple of years ago and have never regretted. Known Adinortey since 2018 when l first reached out to him for a discussion on an IT solution. He's never disappointed. His time, patience and indepth solutions analysis are amazing. I see this young man as one of the emerging great IT gurus in the country and beyond and a fantastic entrepreneur too. l strongly stand by this gentleman and what he represents.\"",
+            "message": "\"Rivet Technology a commencé une relation commerciale avec Airban il y a quelques années et ne l'a jamais regretté. Je connais Adinortey depuis 2018 lorsque je l'ai contacté pour la première fois pour une discussion sur une solution informatique. Il n'est jamais déçu. Son temps, sa patience et son analyse approfondie des solutions sont incroyables. Je vois ce jeune homme comme l'un des grands gourous émergents de l'informatique dans le pays et au-delà, ainsi qu'un entrepreneur fantastique. Je soutiens fermement ce monsieur et ce qu'il représente.\"",
             "author": "Adolph Reinhold",
-            "author_title": "Channel Development Manager, Nestle",
+            "author_title": "Responsable du développement des canaux, Nestlé",
             "author_image": "/img/avatar.png"
         }
     ],
