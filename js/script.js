@@ -17,7 +17,7 @@ function initPage() {
   }
   
   $.ajax({
-    url: "/lang/content_"+storedlang+".json"
+    url: "/lang/content_"+lang+".json"
   }).done(function (content) {
     $("#greeting").html(content.greeting);
     $("#greeting_name").html(content.greeting_name);
