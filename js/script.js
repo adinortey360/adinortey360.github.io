@@ -231,3 +231,10 @@ function setLang(lang) {
   localStorage.setItem("lang", lang)
   initPage();
 }
+
+
+$(".toggler-menu").click(function() {
+  $(".toggler-menu div").toggleClass("active");
+  $(".header-left").toggleClass("menu-open")
+  console.log("toggler click");
+});
