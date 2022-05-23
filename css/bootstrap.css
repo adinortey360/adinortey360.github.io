@@ -12753,7 +12753,7 @@ html {
 }
 
 body {
-    background: #000;
+    /*background: #000;*/
     color: #0b0b13;
     font-family: "Rubik", monospac;
     line-height: 1.7;
@@ -12780,7 +12780,7 @@ img {
 }
 
 a {
-    color: #ff9301;
+    color: #03120E;
     transition: .3s
 }
 
@@ -12799,7 +12799,7 @@ h6 {
 }
 
 mark {
-    background-image: linear-gradient(#ff9301, #ff9301);
+    background-image: linear-gradient(#03120E, #03120E);
     background-size: 100% 3px;
     background-repeat: no-repeat;
     background-position: 0 bottom;
@@ -12880,7 +12880,7 @@ button {
     right: 17px;
     bottom: 20px;
     background-color: #fff;
-    color: #ff9301;
+    color: #03120E;
     width: 45px;
     height: 45px;
     z-index: 99;
@@ -12929,7 +12929,7 @@ button {
 }
 
 #loading {
-    background: #ff9301;
+    background: #03120E;
     z-index: 99999
 }
 
@@ -13042,22 +13042,22 @@ button {
 }
 
 .px-btn.btn-outline {
-    border: 1px solid #ff9301
+    border: 1px solid #03120E
 }
 
 .px-btn.btn-outline:hover,
 .px-btn.px-btn-theme {
-    background: #ff9301;
+    background: #03120E;
     color: #fff
 }
 
 .px-btn.px-btn-theme {
-    border: 1px solid #ff9301
+    border: 1px solid #03120E
 }
 
 .px-btn.px-btn-theme:hover {
     background: #fff;
-    color: #ff9301
+    color: #03120E
 }
 
 .px-btn.px-btn-white {
@@ -13128,7 +13128,7 @@ button {
 }
 
 .header-left .hl-top a {
-    background: #ff9301;
+    background: #03120E;
     color: #fff;
     font-weight: 600;
     text-decoration: none;
@@ -13181,13 +13181,13 @@ button {
 
 @media (min-width:768px) {
     .header-left .nav-menu li:hover {
-        color: #ff9301
+        color: #03120E
     }
 }
 
 .header-left .nav-menu li.active .nav-link,
 .header-left .nav-menu li.active span {
-    color: #ff9301
+    color: #03120E
 }
 
 .header-left.header-menu-style-two .nav-menu li .nav-link {
@@ -13206,7 +13206,7 @@ button {
     height: 0;
     top: auto;
     bottom: 0;
-    background: #ff9301;
+    background: #03120E;
     transition: .3s
 }
 
@@ -13242,7 +13242,7 @@ button {
 }
 
 .header-left .social-icons a:hover {
-    color: #ff9301
+    color: #03120E
 }
 
 .tooltip {
@@ -13290,7 +13290,7 @@ button {
     position: relative;
     border-radius: 50%;
     padding: 0;
-    background: #ff9301;
+    background: #03120E;
     border: none;
     cursor: pointer;
     margin-left: auto
@@ -13382,7 +13382,7 @@ button {
 }
 
 .footer .nav a:hover {
-    color: #ff9301
+    color: #03120E
 }
 
 .footer p {
@@ -13487,8 +13487,8 @@ button {
 }
 
 .pagination .page-item .page-link:hover {
-    background: #ff9301;
-    border-color: #ff9301;
+    background: #03120E;
+    border-color: #03120E;
     color: #fff
 }
 
@@ -13497,8 +13497,8 @@ button {
 }
 
 .pagination .page-item.active .page-link {
-    background: #ff9301;
-    border-color: #ff9301;
+    background: #03120E;
+    border-color: #03120E;
     color: #fff
 }
 
@@ -13518,7 +13518,7 @@ button {
 }
 
 .tag-cloud li:hover {
-    background: #ff9301;
+    background: #03120E;
     color: #fff
 }
 
@@ -13567,8 +13567,8 @@ button {
 
 .article .article-title h6 a {
     text-transform: uppercase;
-    color: #ff9301;
-    border-bottom: 1px solid #ff9301
+    color: #03120E;
+    border-bottom: 1px solid #03120E
 }
 
 .article .article-title h2 {
@@ -13609,7 +13609,7 @@ button {
 
 .article .article-title .media .media-body label {
     font-weight: 600;
-    color: #ff9301;
+    color: #03120E;
     margin: 0
 }
 
@@ -13647,7 +13647,7 @@ button {
 .article .article-content blockquote p {
     font-size: 20px;
     font-weight: 500;
-    color: #ff9301;
+    color: #03120E;
     margin: 0
 }
 
@@ -13818,7 +13818,7 @@ button {
     bottom: 0;
     margin: auto;
     height: 2px;
-    background: #ff9301;
+    background: #03120E;
     position: absolute;
     transition: all .55s ease
 }
@@ -14010,7 +14010,7 @@ button {
     bottom: 0;
     margin: auto;
     height: 2px;
-    background: #ff9301;
+    background: #03120E;
     position: absolute;
     transition: all .55s ease
 }
@@ -14081,7 +14081,7 @@ button {
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background: #ff9301;
+    background: #03120E;
     position: absolute;
     top: -8px;
     left: -15px;
@@ -14128,18 +14128,6 @@ button {
     overflow: hidden
 }
 
-.home-banner:after {
-    content: "";
-    position: absolute;
-    right: -20vh;
-    bottom: -20vh;
-    width: 120vh;
-    height: 120vh;
-    border-radius: 50%;
-    background: rgba(0, 0, 0, .1);
-    z-index: -1
-}
-
 .theme-light .home-banner:after {
     background: #f7f7ff
 }
@@ -14151,7 +14139,7 @@ button {
 
 .home-banner .hb-top-fixed {
     position: absolute;
-    padding: 30px 50px 0;
+    padding: 30px 33px 0;
     top: 0;
     left: 0;
     right: 0;
@@ -14187,7 +14175,7 @@ button {
 }
 
 .home-banner .hb-top-fixed .hb-info a:hover {
-    color: #ff9301
+    color: #03120E
 }
 
 .home-banner .hb-top-fixed .hb-lang {
@@ -14211,7 +14199,7 @@ button {
 
 .home-banner .hb-top-fixed .hb-lang li.active,
 .home-banner .hb-top-fixed .hb-lang li:hover {
-    background: #ff9301
+    background: #03120E
 }
 
 .theme-light .home-banner .hb-top-fixed .hb-lang li.active a,
@@ -14318,7 +14306,7 @@ button {
 }
 
 .theme-light .home-banner .type-box .lead {
-    color: #ff9301;
+    color: #03120E;
     line-height: 1.2
 }
 
@@ -14442,7 +14430,7 @@ button {
 }
 
 .theme-light .about-me .img-in {
-    border: 5px solid #ff9301
+    border: 5px solid #03120E
 }
 
 .about-me .img {
@@ -14517,7 +14505,7 @@ button {
 .about-me .social-icons a:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-    background: #ff9301;
+    background: #03120E;
     color: #fff
 }
 
@@ -14585,7 +14573,7 @@ button {
     left: -40px;
     border-radius: 50%;
     z-index: -2;
-    background: #ff9301
+    background: #03120E
 }
 
 .feature-box-01 .icon {
@@ -14799,7 +14787,7 @@ button {
     padding: 5px 10px;
     border-radius: 3px;
     color: #fff;
-    background: #ff9301;
+    background: #03120E;
     font-size: 12px;
     font-weight: 500
 }
@@ -14856,7 +14844,7 @@ button {
     position: relative;
     transition: all .55s ease;
     height: 10px;
-    background: #ff9301
+    background: #03120E
 }
 
 .aducation-box {
@@ -14935,7 +14923,7 @@ button {
 .contact-info li i {
     width: 30px;
     text-align: center;
-    color: #ff9301;
+    color: #03120E;
     font-size: 22px;
     font-weight: 600
 }
@@ -15188,7 +15176,7 @@ button {
 }
 
 .white-color {
-    color: #ff9301
+    color: #03120E
 }
 
 .h4 {
@@ -15400,11 +15388,11 @@ button {
 }
 
 .title-wrapper .title .theme-color {
-    color: #ff9301
+    color: #03120E
 }
 
 .title-wrapper .tag {
-    background: #ff9301;
+    background: #03120E;
     color: #fff
 }
 
@@ -15412,7 +15400,7 @@ button {
     display: inline-block;
     background: #1c1d24;
     padding: 0 10px;
-    color: #ff9301;
+    color: #03120E;
     border-radius: 4px;
     margin-bottom: 10px
 }
@@ -15441,7 +15429,7 @@ button {
 }
 
 .purchase-block-inner .theme-color {
-    color: #ff9301
+    color: #03120E
 }
 
 .purchase-block-inner .dark-color {
@@ -15534,8 +15522,8 @@ section.testimonial {
 
 .demo-toggler .toggler-btn {
     border-radius: 4px 0 0 4px;
-    background: #ff9301;
-    border: 2px solid #ff9301;
+    background: #03120E;
+    border: 2px solid #03120E;
     color: #fff;
     box-shadow: 0 0 10px hsla(0, 0%, 100%, .1);
     transition: .3s;
@@ -15613,7 +15601,7 @@ section.testimonial {
 }
 
 .preview-sticker.price-sticker {
-    background: #ff9301;
+    background: #03120E;
     color: #fff;
     width: 80px;
     height: 80px;
@@ -15776,7 +15764,7 @@ section.testimonial {
 .slick-dots li button:before {
     font-size: 0;
     opacity: 1;
-    border: 2px solid #ff9301;
+    border: 2px solid #03120E;
     border-radius: 50%
 }
 
@@ -15794,7 +15782,7 @@ section.testimonial {
     top: 0;
     -webkit-transform: scale(0);
     transform: scale(0);
-    background: #ff9301;
+    background: #03120E;
     border-radius: inherit;
     z-index: 5
 }
@@ -16035,11 +16023,6 @@ section.testimonial {
     right: auto
 }
 
-.rtl-theme .home-banner:after {
-    left: -20vh;
-    right: auto
-}
-
 .rtl-theme .feature-box-01:after,
 .rtl-theme .feature-box-01:hover:before {
     right: -40px;
@@ -16192,7 +16175,7 @@ section.testimonial {
 }
 
 .theme-dark .home-banner .type-box .lead {
-    color: #ff9301
+    color: #03120E
 }
 
 .theme-dark .home-banner .type-box h6 {
