@@ -19,6 +19,7 @@ function initPage() {
   $.ajax({
     url: "/lang/content_"+lang+".json"
   }).done(function (content) {
+    $("#cta").html(content.cta);
     $("#greeting").html(content.greeting);
     $("#greeting_name").html(content.greeting_name);
     $("#job_title").html(content.job_title);
