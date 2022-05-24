@@ -14227,14 +14227,14 @@ button {
 
 @media (max-width:991px) {
     .home-banner .hb-me {
-        opacity: .6;
+        opacity: .2;
         width: 80vw
     }
 }
 
 @media (max-width:767px) {
     .home-banner .hb-me {
-        opacity: .4;
+        opacity: .2;
         width: 102vw
     }
 }
