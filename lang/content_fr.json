@@ -285,11 +285,11 @@
     ],
     "lastest_posts": [
         {
-            "title": "Blockchain: People want their freedoms back",
+            "title": "How bad programming damages the climate",
             "platform": "Medium",
-            "date": "22/APR/2022",
-            "image": "https://miro.medium.com/max/700/1*BJKPVwcMuENrSOBvvyopcA.jpeg",
-            "link": "https://medium.com/@adinortey360/blockchain-people-want-their-freedoms-back-e25f21ebbde2"
+            "date": "16/OCT/2022",
+            "image": "https://miro.medium.com/max/1400/1*ihZREYBsmK4uCg5fBiZilw.jpeg",
+            "link": "https://medium.com/@adinortey360/how-bad-programming-damages-the-climate-256842615431"
         },
         {
             "title": "What programming languages should you learn?",
@@ -297,6 +297,13 @@
             "date": "10/MAY/2022",
             "image": "https://miro.medium.com/max/1400/1*QZo3xHwdtyGFmBtsuEXdyw.jpeg",
             "link": "https://medium.com/@adinortey360/what-programming-languages-should-you-learn-34a247c52f16"
+        },
+        {
+            "title": "Blockchain: People want their freedoms back",
+            "platform": "Medium",
+            "date": "22/APR/2022",
+            "image": "https://miro.medium.com/max/700/1*BJKPVwcMuENrSOBvvyopcA.jpeg",
+            "link": "https://medium.com/@adinortey360/blockchain-people-want-their-freedoms-back-e25f21ebbde2"
         }
     ]
 }
