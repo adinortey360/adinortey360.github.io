@@ -285,6 +285,13 @@
     ],
     "lastest_posts": [
         {
+            "title": "Quantum computers: The good, the bad and the ugly",
+            "platform": "Medium",
+            "date": "23/OCT/2022",
+            "image": "https://miro.medium.com/max/720/1*wRqIx5F2RDhBsORhUz0ElA.jpeg",
+            "link": "https://medium.com/@adinortey360/quantum-computers-the-good-the-bad-and-the-ugly-81bf7fb6fec"
+        },
+        {
             "title": "How bad programming damages the climate",
             "platform": "Medium",
             "date": "16/OCT/2022",
