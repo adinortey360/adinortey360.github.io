@@ -269,15 +269,14 @@ $("#contactform").submit(function (e) {
     url: backend_url + "/contact",
     data: data,
     success: function (data) {
-      console.log(data);
-      $("#name").val();
-      $("#email").val();
-      $("#message").val();
-      $("#subject").val();
-      alert("Thank you for contacting me, I will get back to you soon.");
+    //clear form
+    $("#name").val("");
+    $("#email").val("");
+    $("#message").val("");
+    $("#subject").val("");
+    
     },
     error: function (data) {
-      console.log(data);
       alert("Sorry, there was an error sending your message. Please try again later");
     }
   });
