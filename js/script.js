@@ -253,6 +253,9 @@ $("#contactform").submit(function (e) {
   var message = encodeURI($("#message").val());
   var subject = encodeURI($("#subject").val());
 
+  //set button label of button #sendbutton to sending svg from img loading.svg
+  $("#sendbutton").html('<img src="img/loading.svg" alt="loading" width="40" height="40">');
+
   // console log all inputs
   console.log(name);
   console.log(email);
@@ -269,6 +272,8 @@ $("#contactform").submit(function (e) {
   var dataString = $.param(data);
 
 
+  //wait 2 seconds before sending
+  setTimeout(function () {
   $.ajax({
     type: "GET",
     url: backend_url + "/contact?" + dataString,
@@ -280,9 +285,18 @@ $("#contactform").submit(function (e) {
     $("#message").val("");
     $("#subject").val("");
 
+    //set button label of button #sendbutton to sent
+    $("#sendbutton").html('<img src="img/sent.svg" alt="loading" width="18" height="18">');
+
+    //wait 2 seconds and set button label of button #sendbutton to send
+    setTimeout(function () {
+      $("#sendbutton").html("Send Message");
+    }, 2000);
+
     },
     error: function (data) {
       alert("Sorry, there was an error sending your message. Please try again later");
     }
   });
+  }, 2000);
 });
