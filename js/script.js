@@ -130,7 +130,7 @@ function initPage() {
           //extract img from element.content html
           var img = $(element.content).find('img').attr('src');
 
-          $("#lastest_posts").append('<div class="col-md-6 m-15px-tb aos-init" > <div class="blog-grid"> <div class="blog-img"><img src="' + img + '" alt="blog post"></div> <div class="blog-info"> <div class="meta">' + formattedDate + ' -  Medium </div> <h6><a href="' + element.link + '" style="cursor: none;">' + element.title + '</a></h6> </div> </div> </div>');
+          $("#lastest_posts").append('<div class="col-md-6 m-15px-tb aos-init" > <div class="blog-grid"> <div class="blog-img"><img src="' + img + '" alt="blog post"></div> <div class="blog-info"> <div class="meta">' + formattedDate + ' -  Medium </div> <h6><a href="' + element.link + '" style="cursor: none;" target="_blank">' + element.title + '</a></h6> </div> </div> </div>');
         });
       },
       error: function (data) {
