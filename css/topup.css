@@ -1470,3 +1470,8 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     object-fit: cover;
     width: 100%;
 }
+
+.blog-grid .blog-img {
+    border-radius: 12px;
+    box-shadow: 4px 3px 8px 1px rgb(0 0 0 / 9%);
+}
