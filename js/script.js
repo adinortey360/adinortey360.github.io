@@ -252,6 +252,12 @@ $("#contactform").submit(function (e) {
   var email = $("#email").val();
   var message = $("#message").val();
   var subject = $("#subject").val();
+
+  // console log all inputs
+  console.log(name);
+  console.log(email);
+  console.log(message);
+  console.log(subject);
   var data = {
     name: name,
     email: email,
@@ -264,10 +270,10 @@ $("#contactform").submit(function (e) {
     data: data,
     success: function (data) {
       console.log(data);
-      $("#name").val("");
-      $("#email").val("");
-      $("#message").val("");
-      $("#subject").val("");
+      $("#name").val();
+      $("#email").val();
+      $("#message").val();
+      $("#subject").val();
       alert("Thank you for contacting me, I will get back to you soon.");
     },
     error: function (data) {
