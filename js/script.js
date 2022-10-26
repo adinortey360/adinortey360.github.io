@@ -108,9 +108,41 @@ function initPage() {
     });
   
     $("#lastest_posts").html("");
-    content.lastest_posts.forEach(element => {
-      $("#lastest_posts").append('<div class="col-md-6 m-15px-tb aos-init" > <div class="blog-grid"> <div class="blog-img"><img src="' + element.image + '" alt="blog post"></div> <div class="blog-info"> <div class="meta">' + element.date + ' - ' + element.platform + '</div> <h6><a href="' + element.link + '" style="cursor: none;">' + element.title + '</a></h6> </div> </div> </div>');
+
+
+    //get posts with {"title": "Blockchain: People want their freedoms back", "link": "https://medium.com/coinmonks/blockchain-people-want-their-freedoms-back-e25f21ebbde2?source=rss-4285b4d818c8------2", "author": "Adinortey Lawerteh", "published": 1651429839000, "created": 1651429839000, "category": [ "cryptocurrency", "blockchain", "decentralization", "government", "web3" ],} from https://tame-skirt-duck.cyclic.app/posts
+    $.ajax({
+      url: "https://tame-skirt-duck.cyclic.app/posts",
+      type: "GET",
+      dataType: "json",
+      success: function (data) {
+       
+        $.each(data.items, function (index, element) {
+          console.log("HERE");
+          console.log(element);
+          //format date
+          var date = new Date(element.published);
+          var month = date.toLocaleString('default', { month: 'short' });
+          var day = date.getDate();
+          var year = date.getFullYear();
+          var formattedDate = month + " " + day + ", " + year;
+
+          //extract img from element.content html
+          var img = $(element.content).find('img').attr('src');
+
+          $("#lastest_posts").append('<div class="col-md-6 m-15px-tb aos-init" > <div class="blog-grid"> <div class="blog-img"><img src="' + img + '" alt="blog post"></div> <div class="blog-info"> <div class="meta">' + formattedDate + ' -  Medium </div> <h6><a href="' + element.link + '" style="cursor: none;">' + element.title + '</a></h6> </div> </div> </div>');
+        });
+      },
+      error: function (data) {
+        console.log(data);
+      }
     });
+
+
+
+    // content.lastest_posts.forEach(element => {
+    //   $("#lastest_posts").append('<div class="col-md-6 m-15px-tb aos-init" > <div class="blog-grid"> <div class="blog-img"><img src="' + element.image + '" alt="blog post"></div> <div class="blog-info"> <div class="meta">' + element.date + ' - ' + element.platform + '</div> <h6><a href="' + element.link + '" style="cursor: none;">' + element.title + '</a></h6> </div> </div> </div>');
+    // });
   });
 }
 
