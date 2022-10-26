@@ -248,10 +248,10 @@ $(".toggler-menu").click(function() {
 //submit contact for #contactform
 $("#contactform").submit(function (e) {
   e.preventDefault();
-  var name = $("#name").val();
-  var email = $("#email").val();
-  var message = $("#message").val();
-  var subject = $("#subject").val();
+  var name = encodeURI($("#name").val());
+  var email = encodeURI($("#email").val());
+  var message = encodeURI($("#message").val());
+  var subject = encodeURI($("#subject").val());
 
   // console log all inputs
   console.log(name);
@@ -264,9 +264,14 @@ $("#contactform").submit(function (e) {
     message: message,
     subject: subject
   };
+
+  //convert data to query string
+  var dataString = $.param(data);
+
+
   $.ajax({
-    type: "POST",
-    url: backend_url + "/contact",
+    type: "GET",
+    url: backend_url + "/contact?" + dataString,
     data: data,
     success: function (data) {
     //clear form
@@ -274,7 +279,7 @@ $("#contactform").submit(function (e) {
     $("#email").val("");
     $("#message").val("");
     $("#subject").val("");
-    
+
     },
     error: function (data) {
       alert("Sorry, there was an error sending your message. Please try again later");
