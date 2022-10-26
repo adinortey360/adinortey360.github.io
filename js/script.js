@@ -1,3 +1,6 @@
+//VARIABLES
+var backend_url = "https://tame-skirt-duck.cyclic.app";
+
 initPage();
 
 function initPage() {
@@ -238,4 +241,38 @@ $(".toggler-menu").click(function() {
   $(".toggler-menu div").toggleClass("active");
   $(".header-left").toggleClass("menu-open")
   console.log("toggler click");
+});
+
+
+
+//submit contact for #contactform
+$("#contactform").submit(function (e) {
+  e.preventDefault();
+  var name = $("#name").val();
+  var email = $("#email").val();
+  var message = $("#message").val();
+  var subject = $("#subject").val();
+  var data = {
+    name: name,
+    email: email,
+    message: message,
+    subject: subject
+  };
+  $.ajax({
+    type: "POST",
+    url: backend_url + "/contact",
+    data: data,
+    success: function (data) {
+      console.log(data);
+      $("#name").val("");
+      $("#email").val("");
+      $("#message").val("");
+      $("#subject").val("");
+      alert("Thank you for contacting me, I will get back to you soon.");
+    },
+    error: function (data) {
+      console.log(data);
+      alert("Sorry, there was an error sending your message. Please try again later");
+    }
+  });
 });
