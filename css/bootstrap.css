@@ -13447,7 +13447,8 @@ button {
 
 .theme-light .blog-grid .blog-info a {
     color: #0b0b13;
-    background-image: linear-gradient(130deg, #0b0b13, #0b0b13)
+    background-image: linear-gradient(130deg, #0b0b13, #0b0b13);
+    font-size: 16px;
 }
 
 .blog-grid:hover .blog-info a {
@@ -14252,7 +14253,7 @@ button {
 
 .home-banner .type-box {
     padding-top: 90px;
-    padding-bottom: 50px
+    padding-bottom: 150px
 }
 
 .home-banner .type-box h6 {

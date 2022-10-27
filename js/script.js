@@ -130,7 +130,7 @@ function initPage() {
           //extract img from element.content html
           var img = $(element.content).find('img').attr('src');
 
-          $("#lastest_posts").append('<div class="col-md-6 m-15px-tb aos-init" > <div class="blog-grid"> <div class="blog-img"><a href="' + element.link + '" style="cursor: none;" target="_blank"><img src="' + img + '" alt="blog post"></a></div> <div class="blog-info"> <div class="meta">' + formattedDate + ' -  Medium </div> <h6><a href="' + element.link + '" style="cursor: none;" target="_blank">' + element.title + '</a></h6> </div> </div> </div>');
+          $("#lastest_posts").append('<div class="col-md-3 m-15px-tb aos-init" > <div class="blog-grid"> <div class="blog-img"><a href="' + element.link + '" style="cursor: none;" target="_blank"><img src="' + img + '" alt="blog post"></a></div> <div class="blog-info"> <div class="meta">' + formattedDate + ' -  Medium </div> <h6><a href="' + element.link + '" style="cursor: none;" target="_blank">' + element.title + '</a></h6> </div> </div> </div>');
         });
       },
       error: function (data) {
@@ -331,4 +331,49 @@ $("#contactform").submit(function (e) {
     }
   });
   }, 2000);
+});
+
+
+//code typing effect on #code
+var typed = new Typed('#code', {
+  strings: [
+    ' ',
+    '<span class="code_line">1</span> &nbsp;&nbsp; <span class="code_var">var</span> <span class="code_variables">name</span> = <span class="code_values">"John Doe";</span><br>'+
+    '<span class="code_line">2</span> &nbsp;&nbsp; <span class="code_var">var</span> <span class="code_variables">skills</span> = <span class="code_values">["HTML", "CSS", "JavaScript", "PHP", "MySQL"]</span>;<br>'+
+    '<span class="code_line">3</span> &nbsp;&nbsp; <span class="code_var">var</span> <span class="code_variables">interests</span> = <span class="code_values">["Web Development", "Web Design", "Web Security"]</span>;<br>'+
+    '<span class="code_line">4</span> &nbsp;&nbsp; <span class="code_var">var</span> <span class="code_variables">hobbies</span> = <span class="code_values">["Gaming", "Reading", "Writing"]</span>;<br>'+
+    '<span class="code_line">5</span> &nbsp;&nbsp; <span class="code_var">var</span> <span class="code_variables">languages</span> = <span class="code_values">["English", "French", "Spanish"]</span>;<br>'+
+    '<span class="code_line">6</span> &nbsp;&nbsp; <span class="code_var">var</span> <span class="code_variables">location</span> = <span class="code_values">"Paris, France"</span>;<br>'
+  ],
+  typeSpeed: 50,
+  backSpeed: 50,
+  backDelay: 1000,
+  loop: true,
+  loopCount: Infinity,
+  showCursor: false,
+  cursorChar: '|',
+  contentType: 'html', // or text
+  // defaults to false for infinite loop
+  loopCount: false,
+  // callback that executes once all strings are typed
+  onComplete: (self) => { },
+  // starting callback function before each string
+  preStringTyped: (arrayPos, self) => { },
+  //callback for every typed string
+  onStringTyped: (arrayPos, self) => { },
+  // callback for reset
+  onReset: (self) => { },
+  // callback after stop
+  onStop: (arrayPos, self) => { },
+  // callback after backspacing
+  onBackspace: (arrayPos, self) => { },
+  // callback for every typed key
+  onKeyTyped: (arrayPos, self) => { },
+  // callback for when the typing is completed
+  onTypingPaused: (arrayPos, self) => { },
+  // callback for when the typing is resumed
+  onTypingResumed: (arrayPos, self) => { },
+  // callback for when reset is called
+  onReset: (self) => { },
+
 });
