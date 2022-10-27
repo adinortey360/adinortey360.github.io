@@ -1,6 +1,12 @@
 //VARIABLES
 var backend_url = "https://tame-skirt-duck.cyclic.app";
 
+//play click sound click.mp3 on button and link click
+$("button, a").click(function () {
+  var audio = new Audio('click.mp3');
+  audio.play();
+});
+
 initPage();
 
 function initPage() {
@@ -380,3 +386,5 @@ var typed = new Typed('#code', {
   onReset: (self) => { },
 
 });
+
+
