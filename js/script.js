@@ -338,12 +338,15 @@ $("#contactform").submit(function (e) {
 var typed = new Typed('#code', {
   strings: [
     ' ',
-    '<span class="code_line">1</span> &nbsp;&nbsp; <span class="code_var">var</span> <span class="code_variables">name</span> = <span class="code_values">"John Doe";</span><br>'+
-    '<span class="code_line">2</span> &nbsp;&nbsp; <span class="code_var">var</span> <span class="code_variables">skills</span> = <span class="code_values">["HTML", "CSS", "JavaScript", "PHP", "MySQL"]</span>;<br>'+
-    '<span class="code_line">3</span> &nbsp;&nbsp; <span class="code_var">var</span> <span class="code_variables">interests</span> = <span class="code_values">["Web Development", "Web Design", "Web Security"]</span>;<br>'+
-    '<span class="code_line">4</span> &nbsp;&nbsp; <span class="code_var">var</span> <span class="code_variables">hobbies</span> = <span class="code_values">["Gaming", "Reading", "Writing"]</span>;<br>'+
-    '<span class="code_line">5</span> &nbsp;&nbsp; <span class="code_var">var</span> <span class="code_variables">languages</span> = <span class="code_values">["English", "French", "Spanish"]</span>;<br>'+
-    '<span class="code_line">6</span> &nbsp;&nbsp; <span class="code_var">var</span> <span class="code_variables">location</span> = <span class="code_values">"Paris, France"</span>;<br>'
+    '<span class="code_line">1</span> &nbsp;&nbsp; <span class="code_var">const</span> <span class="code_variables">resumegene</span> = <span class="code_values">require("resumegene")</span><br>'+
+    '<span class="code_line">2</span> &nbsp;&nbsp; <br>'+
+    '<span class="code_line">3</span> &nbsp;&nbsp; <span class="code_var">await</span> resumegene.generateResume.<span class="code_method">create</span>({<br>'+
+    '<span class="code_line">4</span> &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <span class="code_var">name:</span> <span class="code_variables">"Adinortey Lawerteh"</span>,<br>'+
+    '<span class="code_line">5</span> &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <span class="code_var">inlink:</span> <span class="code_variables">"https://linkedin.com/in/adinortey360"</span>,<br>'+
+    '<span class="code_line">7</span> &nbsp;&nbsp; });<br>'+
+    '<span class="code_line">8</span><br>'+
+    '<span class="code_line">9</span> &nbsp;&nbsp; console.log("Ready! generating resume ...")'
+    
   ],
   typeSpeed: 50,
   backSpeed: 50,
