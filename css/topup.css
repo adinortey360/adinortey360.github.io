@@ -1519,7 +1519,7 @@ a.repolink {
 
 .codebackground {
     color: #fff;
-    width: 493px;
+    width: 100%;
     margin: auto;
     height: 402px;
     transform: rotate3d(2, 9, 0, 13deg);
