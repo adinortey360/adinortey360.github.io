@@ -12768,7 +12768,7 @@ body.theme-light {
 }
 
 .font-alt {
-    font-family: "Rubik", serif
+    font-family: "Abril Fatface", serif
 }
 
 img {
@@ -14283,7 +14283,8 @@ button {
 }
 
 .theme-light .home-banner .type-box h1 {
-    color: #0b0b13
+    color: #0b0b13;
+    letter-spacing: 4px;
 }
 
 @media (max-width:1200px) {
@@ -14896,7 +14897,8 @@ button {
 }
 
 .theme-light .contact-info h4 {
-    color: #0b0b13
+    color: #0b0b13;
+    font-family: "Abril Fatface", serif;
 }
 
 .contact-info p {
