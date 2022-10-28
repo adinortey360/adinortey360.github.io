@@ -351,7 +351,7 @@ var typed = new Typed('#code', {
     '<span class="code_line">5</span> &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <span class="code_var">inlink:</span> <span class="code_variables">"https://linkedin.com/in/adinortey360"</span>,<br>'+
     '<span class="code_line">7</span> &nbsp;&nbsp; });<br>'+
     '<span class="code_line">8</span><br>'+
-    '<span class="code_line">9</span> &nbsp;&nbsp; console.log("Ready! generating resume ...")'
+    '<span class="code_line">9</span> &nbsp;&nbsp; console.<span class="code_var">log</span>("Ready! generating resume ...")'
     
   ],
   typeSpeed: 50,
